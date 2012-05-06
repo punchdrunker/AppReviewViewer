@@ -1,0 +1,166 @@
+        <script type="text/javascript" src="/js/jquery.form.js"></script>
+        <script type="text/javascript" src="/js/star_graph.js"></script>
+        <title>AppReviewViewer</title>
+        <script type="text/javascript">
+        <!--
+        $(function() {
+            //j$("table#reviews").tablesorter({ sortList: [[0,1]] });
+            $("table#reviews").tablesorter();
+
+            var form_option = {
+              success: function() {
+                  $('#add_app_form').toggle();
+                  document.location.reload(true);
+              },
+              error: function() {
+                  alert('error');
+              }
+            }; 
+            $('#add_app').ajaxForm(form_option);
+            $('#toggle_app_form').click(function(){
+                $('#add_app_form').toggle();
+            });
+
+            var graph_data = [
+                {value: <%= @stars[4] %>},
+                {value: <%= @stars[3] %>},
+                {value: <%= @stars[2] %>},
+                {value: <%= @stars[1] %>},
+                {value: <%= @stars[0] %>},
+            ];
+            render_graph(graph_data);
+        });
+        -->
+        </script>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top"> 
+            <div class="navbar-inner"> 
+                <div class="container"> 
+                    <a href="" class="brand">AppStore Reviews</a>
+                </div> 
+            </div> 
+        </div> 
+
+
+        <div class="container-fluid">
+
+            <!-- menu -->
+            <div class="span3">
+                <h3>apps</h3>
+                <% unless @app %>
+                <% else %>
+                    <ul class="nav nav-list">
+                        <% if @apps %>
+                            <% @apps.each do |app| %>
+                              <li><a href="/?app_id=<%= app[:app_id] %>"><%= app[:name] %></a></li>
+                            <% end %>
+                        <% end %>
+                    </ul>
+                <% end %>
+
+                <a id="toggle_app_form"><i class="icon-plus"></i>Add app</a>
+                <div class="" id="add_app_form" style="display:none;">
+                    <form id="add_app" method="POST" class="well" action="/app/create">
+                        <label>APP ID:</label>
+                        <input class="input-medium" type="text" name="app_id" />
+                        <label>APP NAME:</label>
+                        <input class="input-medium" type="text" name="app_name" />
+                        <button type=submit" class="btn btn-primary">ADD</button>
+                        <button onclick="$('#add_app_form').toggle();return false;" class="btn">CANCEL</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="span9">
+                <div class="container">
+                    <% if @app %>
+                    <h1><%= @app[:name] %>のレビュー</h1>
+                    <div id="stars">
+                        <h3>レビュー評価</h3>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td class="span2"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></td>
+                                    <td class="span2"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></td>
+                                    <td class="span2"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></td>
+                                    <td class="span2"><i class="icon-star"></i><i class="icon-star"></i></td>
+                                    <td class="span2"><i class="icon-star"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="span2"><%= @stars[4] %></td>
+                                    <td class="span2"><%= @stars[3] %></td>
+                                    <td class="span2"><%= @stars[2] %></td>
+                                    <td class="span2"><%= @stars[1] %></td>
+                                    <td class="span2"><%= @stars[0] %></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="well">
+                            <h3>評価分布</h3>
+                            <p><canvas width="800" height="80" id="star_graph"></canvas></p>
+
+                            <canvas width="10" height="10" style="background:#00F"></canvas>:<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+                            <canvas width="10" height="10" style="background:#0FF"></canvas>:<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+                            <canvas width="10" height="10" style="background:#0F0"></canvas>:<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+                            <canvas width="10" height="10" style="background:#FF0"></canvas>:<i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+                            <canvas width="10" height="10" style="background:#F00"></canvas>:<i class="icon-star"></i>
+                        </div>
+                    </div>
+
+
+                    <% if @keywords %>
+                    <h3>キーワード</h3>
+                    <div class="well">
+                        <% @keywords.each do |key, value| %>
+                            <% if 80<value.to_i %>
+                                <span class="keyword-span1"><%= key %>(<%= value %>)</span>
+                            <% elsif 60<value.to_i %>
+                                <span class="keyword-span2"><%= key %>(<%= value %>)</span>
+                            <% elsif 40<value.to_i %>
+                                <span class="keyword-span3"><%= key %>(<%= value %>)</span>
+                            <% elsif 30<value.to_i %>
+                                <span class="keyword-span4"><%= key %>(<%= value %>)</span>
+                            <% elsif 20<value.to_i %>
+                                <span class="keyword-span5"><%= key %>(<%= value %>)</span>
+                            <% elsif 8<value.to_i %>
+                                <span class="keyword-span6"><%= key %>(<%= value %>)</span>
+                            <% end %>
+                        <% end %>
+                    </div>
+                    <% end %>
+
+                    <h3>レビュー</h3>
+                    <div id="reviews">
+                        <% if @reviews %>
+                        <table class="table table-bordered table-striped" id="reviews">
+                            <thead>
+                                <tr>
+                                    <th>stars</th>
+                                    <th>user名</th>
+                                    <th>日付</th>
+                                    <th>レビュー</th>
+                                    <th>Version</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% @reviews.order(:id).each do |review| %>
+                                    <tr>
+                                        <td><%= review[:star] %></td>
+                                        <td><%= review[:user] %></td>
+                                        <td><%= review[:date] %></td>
+                                        <td><h5><%= review[:title] %></h5><%= review[:body] %></td>
+                                        <td><%= review[:version] %></td>
+                                    </tr>
+                                <% end %>
+                            </tbody>
+                        </table>
+                        <% end %>
+                        <% else %>
+                            アプリが登録されていません
+                        <% end %>
+                    </div>
+                </div> 
+        </div> 
+    </body>
