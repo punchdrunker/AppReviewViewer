@@ -46,7 +46,10 @@ get '/' do
     @reviews = Reviews.filter(:app_id => @app[:app_id])
     @keywords = get_keywords(@reviews)
     @stars = get_star_count(@reviews)
+  else
+    @stars = get_star_count
   end
+
   erb :index
 end
 
@@ -62,7 +65,7 @@ post '/app/create' do
   end
 end
 
-def get_star_count(reviews)
+def get_star_count(reviews=[])
   stars = [0,0,0,0,0]
   reviews.each do |review|
     key = review[:star].to_i - 1
@@ -71,7 +74,7 @@ def get_star_count(reviews)
   return stars
 end
 
-def get_keywords(reviews)
+def get_keywords(reviews=[])
   keywords = {}
   reviews.each do |review|
     nodes = review[:nodes].split(',')
