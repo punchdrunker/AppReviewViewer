@@ -1,3 +1,48 @@
 body {
     padding-top: 40px;
 }
+
+.keyword-span1 {
+    font-size: 40px;
+    line-height: 36px;
+    float:none;
+}
+
+.keyword-span2 {
+    font-size: 30px;
+    line-height: 36px;
+    float:none;
+}
+
+.keyword-span3 {
+    font-size: 25px;
+    line-height: 36px;
+    float:none;
+}
+
+.keyword-span4 {
+    font-size: 20px;
+    line-height: 36px;
+    float:none;
+}
+
+.keyword-span5 {
+    font-size: 15px;
+    line-height: 36px;
+    float:none;
+}
+
+.keyword-span6 {
+    font-size: 12px;
+    line-height: 36px;
+    float:none;
+}
+
+.table th {
+    font-size: 12px;
+}
+
+.table tr td {
+    font-weigtht: lighter;
+    font-size: 12px;
+}
