@@ -1,0 +1,31 @@
+<div id="stars">
+  <h3>レビュー評価</h3>
+  <table class="table table-bordered">
+    <tbody>
+      <tr>
+        <td class="span2"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></td>
+        <td class="span2"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></td>
+        <td class="span2"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></td>
+        <td class="span2"><i class="icon-star"></i><i class="icon-star"></i></td>
+        <td class="span2"><i class="icon-star"></i></td>
+      </tr>
+      <tr>
+        <td class="span2"><%= stars[4] %></td>
+        <td class="span2"><%= stars[3] %></td>
+        <td class="span2"><%= stars[2] %></td>
+        <td class="span2"><%= stars[1] %></td>
+        <td class="span2"><%= stars[0] %></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="well">
+    <h3>評価分布</h3>
+    <p><canvas width="800" height="80" id="star_graph"></canvas></p>
+
+    <canvas width="10" height="10" style="background:#00F"></canvas>:<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+    <canvas width="10" height="10" style="background:#0FF"></canvas>:<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+    <canvas width="10" height="10" style="background:#0F0"></canvas>:<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+    <canvas width="10" height="10" style="background:#FF0"></canvas>:<i class="icon-star"></i><i class="icon-star"></i>&nbsp;/&nbsp;
+    <canvas width="10" height="10" style="background:#F00"></canvas>:<i class="icon-star"></i>
+  </div>
+</div>

@@ -18,4 +18,7 @@ class Reviews < Sequel::Model
     create_table
   end
 
+  def self.versions(app_id)
+    self.db.fetch("SELECT DISTINCT version FROM reviews WHERE app_id = ?", app_id)
+  end
 end

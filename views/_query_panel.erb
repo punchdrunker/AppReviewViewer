@@ -1,0 +1,18 @@
+<div class="side-content">
+  <h3>条件指定</h3>
+  <form id="query-panel" class="well" action="" method="GET">
+    <% if versions %>
+      <div class="controls">
+        <label class="control-label">バージョン</label>
+        <select name="version" class="span2">
+          <option>ALL</option>
+          <% versions.each do |version| %>
+            <option><%= version[:version] %></option>
+          <% end %>
+        </select>
+      </div>
+      <input type="hidden" name="app_id" value="<%= app_id %>" class="btn" />
+      <button type="submit" class="btn">SEARCH</button>
+    <% end %>
+  </form>
+</div>

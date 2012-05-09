@@ -1,0 +1,25 @@
+<div class="side-content">
+  <h3>アプリ一覧</h3>
+  <% unless app %>
+  <% else %>
+    <ul class="nav nav-list">
+      <% if apps %>
+        <% apps.each do |app| %>
+          <li><a href="/?app_id=<%= app[:app_id] %>"><%= app[:name] %></a></li>
+        <% end %>
+      <% end %>
+    </ul>
+  <% end %>
+
+  <a id="toggle_app_form"><i class="icon-plus"></i>Add app</a>
+  <div class="" id="add_app_form" style="display:none;">
+    <form id="add_app" method="POST" class="well" action="/app/create">
+      <label>APP ID:</label>
+      <input class="input-medium" type="text" name="app_id" />
+      <label>APP NAME:</label>
+      <input class="input-medium" type="text" name="app_name" />
+      <button type=submit" class="btn btn-primary">ADD</button>
+      <button onclick="$('#add_app_form').toggle();return false;" class="btn">CANCEL</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<% if keywords %>
+  <h3>キーワード</h3>
+  <div class="well">
+    <% keywords.each do |key, value| %>
+      <% if 80<value.to_i %>
+        <span class="keyword-span1"><%= key %>(<%= value %>)</span>
+      <% elsif 60<value.to_i %>
+        <span class="keyword-span2"><%= key %>(<%= value %>)</span>
+      <% elsif 40<value.to_i %>
+        <span class="keyword-span3"><%= key %>(<%= value %>)</span>
+      <% elsif 30<value.to_i %>
+        <span class="keyword-span4"><%= key %>(<%= value %>)</span>
+      <% elsif 20<value.to_i %>
+        <span class="keyword-span5"><%= key %>(<%= value %>)</span>
+      <% elsif 8<value.to_i %>
+        <span class="keyword-span6"><%= key %>(<%= value %>)</span>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

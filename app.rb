@@ -43,9 +43,14 @@ get '/' do
   end
 
   if @app
-    @reviews = Reviews.filter(:app_id => @app[:app_id])
+    if params[:version] && params[:version]!='ALL'
+      @reviews = Reviews.filter(:app_id => @app[:app_id], :version => params[:version])
+    else
+      @reviews = Reviews.filter(:app_id => @app[:app_id])
+    end
     @keywords = get_keywords(@reviews)
     @stars = get_star_count(@reviews)
+    @versions = Reviews.versions(params[:app_id])
   else
     @stars = get_star_count
   end
