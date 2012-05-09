@@ -22,14 +22,16 @@ mecab-rubyは無くても動作するはずです。
 使い方
 -------
 以下のコマンドで起動します
-`ruby app.rb`
+
+`$ ruby app.rb`
 
 http://localhost:4567 にアクセスして、左メニューからアプリを登録します。
 APP IDはAppStoreのURLに含まれているアプリID(twitterであれば333903271)で、
 APP NAMEは何でもいいです。
 
 アプリを登録したら以下のコマンドでレビューを収集します
-`ruby fetch.rb`
+
+`$ ruby fetch.rb`
 
 終了後、再度
 http://localhost:4567
