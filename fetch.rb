@@ -6,7 +6,6 @@ require 'open-uri'
 require 'sequel'
 require 'digest/sha1'
 require 'sequel'
-require 'MeCab'
 Sequel.connect('sqlite://appreview.db')
 
 HERE = File.dirname(__FILE__)
@@ -15,6 +14,12 @@ require 'model/apps'
 require 'model/reviews'
 
 def get_nodes(text)
+  begin
+    require 'MeCab'
+  rescue LoadError
+    return nil
+  end
+
   mecab = MeCab::Tagger.new()
   text = text.gsub('<br />', '')
   text = text.gsub(/\[|\]|\(|\)/,'')
@@ -133,8 +138,9 @@ def fetch_reviews(app_id, pages)
   user_agent = "iTunes/9.2 (Windows; Microsoft Windows 7 "\
   + "Home Premium Edition (Build 7600)) AppleWebKit/533.16"
 
-
   (0..pages).each do |page|
+    puts "processing ID:#{app_id} #{(page+1).to_s}/#{(pages+1).to_s}...\n"
+
     url = base_url + "/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id="\
     + app_id + "&pageNumber="+page.to_s+"&sortOrdering=4&type=Purple+Software"
     xml = open(url,
