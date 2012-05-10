@@ -154,5 +154,6 @@ def fetch_reviews(app_id, pages)
 end
 
 Apps.all.each do |app|
-  fetch_reviews(app[:app_id].to_s, 10)
+  n = (Reviews.filter(:app_id => app[:app_id]).count==0)?10:2
+  fetch_reviews(app[:app_id].to_s, n)
 end
