@@ -36,28 +36,32 @@
     <body>
         <div class="navbar navbar-fixed-top"> 
             <div class="navbar-inner"> 
-                <div class="container"> 
-                    <a href="" class="brand">AppStore Reviews</a>
-                </div> 
+                    <a href="/" class="brand">AppStore Reviews</a>
+                    <div class="nav-collapse"></div>
             </div> 
         </div> 
 
 
-        <div class="container-fluid">
+        <div class="container-fluid span12">
 
             <!-- menu -->
             <div class="span3">
-              <%= partial(:_side_menu, :apps => @apps) %>
+                &nbsp;
+                <div class="float-menu">
+              <%= partial(:_side_menu, :selected_app => @app, :apps => @apps) %>
               <% if @app %>
               <%= partial(:_query_panel, :versions => @versions, :app_id => @app[:app_id]) %>
               <% end %>
+                </div>
             </div>
 
             <!-- content -->
-            <div class="span9">
+            <div class="span8">
                 <div class="container">
                     <% if @app %>
+                      <div class="row">
                       <h1><%= @app[:name] %>のレビュー</h1>
+                      </div>
 
                       <%= partial(:_star_panel, :stars => @stars) %>
 

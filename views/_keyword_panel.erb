@@ -1,6 +1,7 @@
+<div class="row">
 <% if keywords %>
   <h3>キーワード</h3>
-  <div class="well">
+  <div class="well row">
     <% keywords.each do |key, value| %>
       <% if 80<value.to_i %>
         <span class="keyword-span1"><%= key %>(<%= value %>)</span>
@@ -18,3 +19,4 @@
     <% end %>
   </div>
 <% end %>
+</div>

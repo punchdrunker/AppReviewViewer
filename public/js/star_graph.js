@@ -8,7 +8,7 @@ function render_graph(data){
 }
 
 function data_to_graph(context, data){  
-    var colors = ["#00F", "#0FF", "#0F0", "#FF0", "#F00"];
+    var colors = ["#5BB75B", "#0074CC", "#49AFCD", "#FAA732", "#DA4F49"];
     var graph_width = 600;
     var graph_height = 60;
     var y_offset = 0;

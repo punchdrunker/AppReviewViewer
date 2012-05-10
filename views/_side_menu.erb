@@ -1,25 +1,35 @@
-<div class="side-content">
-  <h3>アプリ一覧</h3>
+<div class="side-content row">
   <% unless app %>
   <% else %>
-    <ul class="nav nav-list">
+    <div class="row">
+  <h3>アプリ一覧</h3>
+    <ul class="nav nav-pills nav-stacked span2">
       <% if apps %>
         <% apps.each do |app| %>
-          <li><a href="/?app_id=<%= app[:app_id] %>"><%= app[:name] %></a></li>
+           <% if app[:app_id]==selected_app[:app_id] %>
+               <li class="active"><a href="/?app_id=<%= app[:app_id] %>"><%= app[:name] %></a></li>
+           <% else %>
+               <li><a href="/?app_id=<%= app[:app_id] %>"><%= app[:name] %></a></li>
+           <% end %>
         <% end %>
       <% end %>
     </ul>
+    </div>
   <% end %>
 
-  <a id="toggle_app_form"><i class="icon-plus"></i>Add app</a>
-  <div class="" id="add_app_form" style="display:none;">
-    <form id="add_app" method="POST" class="well" action="/app/create">
-      <label>APP ID:</label>
-      <input class="input-medium" type="text" name="app_id" />
-      <label>APP NAME:</label>
-      <input class="input-medium" type="text" name="app_name" />
-      <button type=submit" class="btn btn-primary">ADD</button>
-      <button onclick="$('#add_app_form').toggle();return false;" class="btn">CANCEL</button>
-    </form>
+  <div class="row">
+      <div >
+          <a id="toggle_app_form"><i class="icon-plus"></i>Add app</a>
+      </div>
+      <div class="span2" id="add_app_form" style="display:none;">
+          <form id="add_app" method="POST" action="/app/create">
+              <label>APP ID:</label>
+              <input class="input-medium" type="text" name="app_id" />
+              <label>APP NAME:</label>
+              <input class="input-medium" type="text" name="app_name" />
+              <button type=submit" class="btn btn-primary">ADD</button>
+              <button onclick="$('#add_app_form').toggle();return false;" class="btn">CANCEL</button>
+          </form>
+      </div>
   </div>
 </div>

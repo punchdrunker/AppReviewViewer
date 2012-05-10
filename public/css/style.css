@@ -49,5 +49,16 @@ body {
 
 .side-content {
     padding-bottom: 20px;
+    padding-left: 30px;
 }
 
+.navbar .brand {
+    padding-left: 73px;
+}
+
+.float-menu {
+    position:fixed;
+    top:40px;
+    left:30;
+    z-index:1;
+}
