@@ -48,7 +48,9 @@
             <!-- menu -->
             <div class="span3">
               <%= partial(:_side_menu, :apps => @apps) %>
+              <% if @app %>
               <%= partial(:_query_panel, :versions => @versions, :app_id => @app[:app_id]) %>
+              <% end %>
             </div>
 
             <!-- content -->
