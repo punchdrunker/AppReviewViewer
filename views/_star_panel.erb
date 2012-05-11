@@ -1,3 +1,5 @@
+<% total_count = stars[4] + stars[3] + stars[2] + stars[1] + stars[0] %>
+<% if 0<total_count %>
 <div id="stars">
   <div class="row">
   <h3>レビュー評価</h3>
@@ -17,7 +19,6 @@
         <td><%= stars[1] %></td>
         <td><%= stars[0] %></td>
       </tr>
-    <% total_count = stars[4] + stars[3] + stars[2] + stars[1] + stars[0] %>
       <tr>
         <td><%= (stars[4] * 100) / total_count %>%</td>
         <td><%= (stars[3] * 100) / total_count %>%</td>
@@ -41,3 +42,4 @@
     </div>
   </div>
 </div>
+<% end %>

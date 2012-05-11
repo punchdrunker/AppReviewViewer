@@ -9,6 +9,7 @@ class Reviews < Sequel::Model
       string :title
       string :body
       string :version
+      string :device
       string :app_id
       string :nodes
       int :star
