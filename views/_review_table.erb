@@ -11,6 +11,7 @@
           <th>日付</th>
           <th>レビュー</th>
           <th>Version</th>
+          <th>端末</th>
         </tr>
       </thead>
 
@@ -23,6 +24,7 @@
             <td><%= review[:date] %></td>
             <td><h5><%= review[:title] %></h5><%= review[:body] %></td>
             <td><%= review[:version] %></td>
+            <td><%= review[:device] %></td>
           </tr>
         <% end %>
       </tbody>
