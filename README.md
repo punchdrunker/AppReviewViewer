@@ -34,13 +34,13 @@ mecab-rubyは無くても動作するはずです。
 
 http://localhost:4567 にアクセスして、左メニューからアプリを登録します。
 
-APP IDはAppStoreのURLに含まれているアプリID(twitterであれば333903271)で、
+APP IDはAppStoreとかGooglePlayのURLに含まれているアプリID(twitterのiOSアプリであれば333903271、GooglePlayだとcom.twitter.android)で、
 
 APP NAMEは何でもいいです。
 
 アプリを登録したら以下のコマンドでレビューを収集します
 
-    $ ruby fetch.rb
+    $ ruby scripts/fetch.rb
 
 終了後、再度http://localhost:4567にアクセスすると、レビューの一覧が表示されます
 

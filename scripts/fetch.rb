@@ -5,7 +5,7 @@ require 'sequel'
 $LOAD_PATH << File.dirname(__FILE__)
 $LOAD_PATH << File.dirname(__FILE__) + '/../lib'
 
-Sequel.connect('sqlite://../appreview.db')
+Sequel.connect('sqlite://' + File.dirname(__FILE__) + '/../appreview.db')
 
 require 'model/apps'
 require 'model/reviews'
