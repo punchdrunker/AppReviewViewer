@@ -50,7 +50,7 @@ get '/' do
     end
     @keywords = get_keywords(@reviews)
     @stars = get_star_count(@reviews)
-    @versions = Reviews.versions(params[:app_id])
+    @versions = Reviews.versions(@app[:app_id])
   else
     @stars = get_star_count
   end
