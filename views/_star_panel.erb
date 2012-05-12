@@ -11,6 +11,7 @@
         <td class="span1"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></td>
         <td class="span1"><i class="icon-star"></i><i class="icon-star"></i></td>
         <td class="span1"><i class="icon-star"></i></td>
+        <td class="span1">合計</i></td>
       </tr>
       <tr>
         <td><%= stars[4] %></td>
@@ -18,6 +19,7 @@
         <td><%= stars[2] %></td>
         <td><%= stars[1] %></td>
         <td><%= stars[0] %></td>
+        <td><%= total_count %></td>
       </tr>
       <tr>
         <td><%= (stars[4] * 100) / total_count %>%</td>
@@ -25,6 +27,7 @@
         <td><%= (stars[2] * 100) / total_count %>%</td>
         <td><%= (stars[1] * 100) / total_count %>%</td>
         <td><%= (stars[0] * 100) / total_count %>%</td>
+        <td>100%</td>
       </tr>
     </tbody>
   </table>
