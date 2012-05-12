@@ -20,6 +20,8 @@ end
 
 get '/' do
   @apps = Apps.all
+  @app  = nil
+
   if params[:app_id]
     @app = Apps.filter(:app_id => params[:app_id]).first
   else

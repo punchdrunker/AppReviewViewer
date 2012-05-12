@@ -1,12 +1,12 @@
 <div class="side-content row">
-  <% unless app %>
+  <% unless apps %>
   <% else %>
     <div class="row">
   <h3>アプリ一覧</h3>
     <ul class="nav nav-pills nav-stacked span2">
       <% if apps %>
         <% apps.each do |app| %>
-           <% if app[:app_id]==selected_app[:app_id] %>
+           <% if selected_app && app[:app_id]==selected_app[:app_id] %>
                <li class="active"><a href="/?app_id=<%= app[:app_id] %>"><%= app[:name] %></a></li>
            <% else %>
                <li><a href="/?app_id=<%= app[:app_id] %>"><%= app[:name] %></a></li>

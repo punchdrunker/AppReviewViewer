@@ -1,2 +1,2 @@
-appreview.db
-logs/debug.log
+*.db
+logs/*.log
