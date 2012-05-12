@@ -4,8 +4,7 @@ require 'sqlite3'
 require 'logger'
 
 configure :development do
-  set :database, 'sqlite://' + File.dirname(__FILE__) + '/../appdebug.db'
-
+  set :database, 'sqlite://appdebug.db'
   @log = Logger.new(File.dirname(__FILE__) + '/../logs/debug.log')
   @log.level = Logger::DEBUG
 end
@@ -19,7 +18,7 @@ configure :test do
 end
 
 configure :production do
-  set :database, 'sqlite://' + File.dirname(__FILE__) + '/../appreview.db'
+  set :database, 'sqlite://appreview.db'
 
   @log = Logger.new(File.dirname(__FILE__) + '/../logs/production.log')
   @log.level = Logger::FATAL

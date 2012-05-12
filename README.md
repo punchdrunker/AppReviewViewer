@@ -20,6 +20,7 @@ Sinatraベースです。
 * sqlite3
 * sinatra
 * sinatra-reloader
+* sinatra-sequel
 
 以下は任意
 * mecab-ruby(version 0.98 only)
