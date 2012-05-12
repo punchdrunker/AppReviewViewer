@@ -66,12 +66,14 @@ end
 def get_keywords(reviews=[])
   keywords = {}
   reviews.each do |review|
-    nodes = review[:nodes].split(',')
-    nodes.each do |node|
-      if keywords[node]
-        keywords[node] += 1
-      else
-        keywords[node] = 1
+    if review[:nodes]
+      nodes = review[:nodes].split(',')
+      nodes.each do |node|
+        if keywords[node]
+          keywords[node] += 1
+        else
+          keywords[node] = 1
+        end
       end
     end
   end

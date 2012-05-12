@@ -14,6 +14,7 @@ Sinatraベースです。
 依存ライブラリ
 -------
 以下のrubygemsを利用しているので、installが必要です。
+* json
 * nokogiri
 * sequel
 * sqlite3
