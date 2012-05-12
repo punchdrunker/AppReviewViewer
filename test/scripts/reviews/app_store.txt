@@ -1,0 +1,3395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+    <Document xmlns="http://www.apple.com/itms/" pageType="album" playlistId="333903271">
+        
+  
+    
+  
+    
+      
+    
+    <Protocol>
+      <plist version="1.0">
+        <dict>
+          
+          
+            <key>navbar</key><dict><key>menus</key><array><dict><key>title</key><string>Music</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=34</string><key>items</key><array><dict><key>title</key><string>iTunes LP</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewFeature?id=365765353&amp;l=en&amp;s=143462</string></dict><dict><key>title</key><string>Music Videos</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1028</string></dict><dict><key>title</key><string>Live Music</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=27748</string></dict><dict><key>divider</key><true/></dict><dict><key>title</key><string>J-Pop</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1024</string></dict><dict><key>title</key><string>R&amp;B/Soul</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1010</string></dict><dict><key>title</key><string>Anime</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=27743</string></dict><dict><key>title</key><string>Vocal</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1016</string></dict><dict><key>title</key><string>Electronic</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1004</string></dict><dict><key>title</key><string>Alternative</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1015</string></dict><dict><key>title</key><string>Kayokyoku</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1025</string></dict><dict><key>title</key><string>Classical</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1002</string></dict><dict><key>title</key><string>Soundtrack</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1011</string></dict><dict><key>title</key><string>Jazz</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1006</string></dict><dict><key>title</key><string>Dance</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1012</string></dict><dict><key>title</key><string>Hip Hop/Rap</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1013</string></dict><dict><key>title</key><string>Fitness &amp; Workout</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=27800</string></dict><dict><key>title</key><string>Blues</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1001</string></dict><dict><key>title</key><string>Pop</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1009</string></dict><dict><key>title</key><string>Reggae</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1031</string></dict><dict><key>title</key><string>Rock</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1017</string></dict><dict><key>title</key><string>World</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=1014</string></dict></array></dict><dict><key>title</key><string>Movies</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=33</string><key>items</key><array><dict><key>title</key><string>HD Movies</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewMultiRoom?fcId=400846903&amp;l=en&amp;s=143462</string></dict><dict><key>title</key><string>Genre New Release</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewMultiRoom?fcId=408801635&amp;l=en&amp;s=143462</string></dict><dict><key>title</key><string>ディズニー</string><key>url</key><string>http://itunes.apple.com/jp/collection/dizuni/id29278?fcId=400846644&amp;l=en</string></dict><dict><key>title</key><string>Subtitled Movies</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewMultiRoom?fcId=400847496&amp;l=en&amp;s=143462</string></dict><dict><key>title</key><string>Dubbed Movies</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewMultiRoom?fcId=400847532&amp;l=en&amp;s=143462</string></dict><dict><key>divider</key><true/></dict><dict><key>title</key><string>SF/ファンタジー</string><key>url</key><string>http://itunes.apple.com/jp/collection/sf-fantaji/id29278?fcId=400848363&amp;l=en</string></dict><dict><key>title</key><string>アクション/アドベンチャー</string><key>url</key><string>http://itunes.apple.com/jp/collection/akushon-adobencha/id29278?fcId=400848119&amp;l=en</string></dict><dict><key>title</key><string>キッズ/ファミリー</string><key>url</key><string>http://itunes.apple.com/jp/collection/kizzu-famiri/id29278?fcId=400848349&amp;l=en</string></dict><dict><key>title</key><string>コメディ</string><key>url</key><string>http://itunes.apple.com/jp/collection/komedi/id29278?fcId=400848303&amp;l=en</string></dict><dict><key>title</key><string>時代劇</string><key>url</key><string>http://itunes.apple.com/jp/collection/shi-dai-ju/id29278?fcId=410748629&amp;l=en</string></dict><dict><key>title</key><string>スリラー</string><key>url</key><string>http://itunes.apple.com/jp/collection/surira/id29278?fcId=400848391&amp;l=en</string></dict><dict><key>title</key><string>短編映画</string><key>url</key><string>http://itunes.apple.com/jp/collection/duan-bian-ying-hua/id29278?fcId=400848386&amp;l=en</string></dict><dict><key>title</key><string>特撮</string><key>url</key><string>http://itunes.apple.com/jp/collection/te-cuo/id29278?fcId=410748657&amp;l=en</string></dict><dict><key>title</key><string>ドラマ</string><key>url</key><string>http://itunes.apple.com/jp/collection/dorama/id29278?fcId=400848347&amp;l=en</string></dict><dict><key>title</key><string>邦画</string><key>url</key><string>http://itunes.apple.com/jp/collection/bang-hua/id29278?fcId=410748484&amp;l=en</string></dict><dict><key>title</key><string>ホラー</string><key>url</key><string>http://itunes.apple.com/jp/collection/hora/id29278?fcId=400849020&amp;l=en</string></dict><dict><key>title</key><string>名作</string><key>url</key><string>http://itunes.apple.com/jp/collection/ming-zuo/id29278?fcId=400848302&amp;l=en</string></dict><dict><key>title</key><string>ロマンス</string><key>url</key><string>http://itunes.apple.com/jp/collection/romansu/id29278?fcId=400848354&amp;l=en</string></dict></array></dict><dict><key>title</key><string>App Store</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=36&amp;mt=8</string><key>items</key><array><dict><key>title</key><string>Game Center</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewFeature?id=388663730&amp;l=en&amp;mt=8&amp;s=143462</string></dict><dict><key>title</key><string>TV-CMで紹介の iPhone App</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewCustomPage?name=pageAppsFromTheTVAds</string></dict><dict><key>title</key><string>TV-CMで紹介の iPod touch 用ゲーム</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRoom?fcId=306770770&amp;id=36</string></dict><dict><key>divider</key><true/></dict><dict><key>title</key><string>Newsstand</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=29723&amp;mt=8</string></dict><dict><key>title</key><string>Entertainment</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6016&amp;mt=8</string></dict><dict><key>title</key><string>Catalogs</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6022&amp;mt=8</string></dict><dict><key>title</key><string>Education</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6017&amp;mt=8</string></dict><dict><key>title</key><string>Games</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=25185&amp;mt=8</string></dict><dict><key>title</key><string>Productivity</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6007&amp;mt=8</string></dict><dict><key>title</key><string>Reference</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6006&amp;mt=8</string></dict><dict><key>title</key><string>Photo &amp; Video</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6008&amp;mt=8</string></dict><dict><key>title</key><string>Sports</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6004&amp;mt=8</string></dict><dict><key>title</key><string>Social Networking</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6005&amp;mt=8</string></dict><dict><key>title</key><string>Weather</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6001&amp;mt=8</string></dict><dict><key>title</key><string>Navigation</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6010&amp;mt=8</string></dict><dict><key>title</key><string>News</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6009&amp;mt=8</string></dict><dict><key>title</key><string>Business</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6000&amp;mt=8</string></dict><dict><key>title</key><string>Finance</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6015&amp;mt=8</string></dict><dict><key>title</key><string>Books</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6018&amp;mt=8</string></dict><dict><key>title</key><string>Health &amp; Fitness</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6013&amp;mt=8</string></dict><dict><key>title</key><string>Music</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6011&amp;mt=8</string></dict><dict><key>title</key><string>Medical</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6020&amp;mt=8</string></dict><dict><key>title</key><string>Utilities</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6002&amp;mt=8</string></dict><dict><key>title</key><string>Lifestyle</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6012&amp;mt=8</string></dict><dict><key>title</key><string>Travel</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=6003&amp;mt=8</string></dict></array></dict><dict><key>title</key><string>Podcasts</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=26</string><key>items</key><array><dict><key>title</key><string>Audio Podcasts</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=25311&amp;subMediaType=Audio</string></dict><dict><key>title</key><string>Video Podcasts</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=25319&amp;subMediaType=Video</string></dict><dict><key>title</key><string>ニューリリース</string><key>url</key><string>http://itunes.apple.com/jp/collection/nyuririsu/id1027?fcId=330348565&amp;l=en</string></dict><dict><key>divider</key><true/></dict><dict><key>title</key><string>Arts</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1301</string></dict><dict><key>title</key><string>Science &amp; Medicine</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1315</string></dict><dict><key>title</key><string>Kids &amp; Family</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1305</string></dict><dict><key>title</key><string>Education</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1304</string></dict><dict><key>title</key><string>Government &amp; Organizations</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1325</string></dict><dict><key>title</key><string>Games &amp; Hobbies</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1323</string></dict><dict><key>title</key><string>Health</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1307</string></dict><dict><key>title</key><string>Comedy</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1303</string></dict><dict><key>title</key><string>Society &amp; Culture</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1324</string></dict><dict><key>title</key><string>Religion &amp; Spirituality</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1314</string></dict><dict><key>title</key><string>Sports &amp; Recreation</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1316</string></dict><dict><key>title</key><string>Technology</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1318</string></dict><dict><key>title</key><string>TV &amp; Film</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1309</string></dict><dict><key>title</key><string>News &amp; Politics</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1311</string></dict><dict><key>title</key><string>Business</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1321</string></dict><dict><key>title</key><string>Fitness &amp; Workout</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=27800</string></dict><dict><key>title</key><string>Music</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=1310</string></dict></array></dict><dict><key>title</key><string>Audiobooks</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=50000024</string><key>items</key><array><dict><key>title</key><string>ニューリリース</string><key>url</key><string>http://itunes.apple.com/jp/collection/nyuririsu/id1019?fcId=330224312&amp;l=en</string></dict><dict><key>divider</key><true/></dict><dict><key>title</key><string>Sci-Fi &amp; Fantasy</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21891</string></dict><dict><key>title</key><string>Arts &amp; Entertainment</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21517</string></dict><dict><key>title</key><string>Science</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21913</string></dict><dict><key>title</key><string>Kids &amp; Young Adults</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21715</string></dict><dict><key>title</key><string>Languages</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21737</string></dict><dict><key>title</key><string>Comedy</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21605</string></dict><dict><key>title</key><string>Self Development</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21935</string></dict><dict><key>title</key><string>Religion &amp; Spirituality</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21847</string></dict><dict><key>title</key><string>Drama &amp; Poetry</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21627</string></dict><dict><key>title</key><string>Sports</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21979</string></dict><dict><key>title</key><string>Technology</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=22001</string></dict><dict><key>title</key><string>Biography &amp; Memoir</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21539</string></dict><dict><key>title</key><string>Travel &amp; Adventure</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=22023</string></dict><dict><key>title</key><string>Speakers &amp; Storytellers</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21957</string></dict><dict><key>title</key><string>News</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21781</string></dict><dict><key>title</key><string>Nonfiction</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21803</string></dict><dict><key>title</key><string>Business</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21561</string></dict><dict><key>title</key><string>Fiction</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21671</string></dict><dict><key>title</key><string>Mystery</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21759</string></dict><dict><key>title</key><string>Classics</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21583</string></dict><dict><key>title</key><string>History</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21693</string></dict><dict><key>title</key><string>Romance</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?id=21869</string></dict></array></dict><dict><key>title</key><string>iTunes U</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000000</string><key>items</key><array><dict><key>title</key><string>Health &amp; Medicine</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000026&amp;mt=10</string></dict><dict><key>title</key><string>Science</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000084&amp;mt=10</string></dict><dict><key>title</key><string>Teaching &amp; Education</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000109&amp;mt=10</string></dict><dict><key>title</key><string>Language</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000056&amp;mt=10</string></dict><dict><key>title</key><string>Engineering</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000009&amp;mt=10</string></dict><dict><key>title</key><string>Society</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000101&amp;mt=10</string></dict><dict><key>title</key><string>Social Science</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000094&amp;mt=10</string></dict><dict><key>title</key><string>Humanities</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000052&amp;mt=10</string></dict><dict><key>title</key><string>Mathematics</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000077&amp;mt=10</string></dict><dict><key>title</key><string>Business</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000001&amp;mt=10</string></dict><dict><key>title</key><string>Fine Arts</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000016&amp;mt=10</string></dict><dict><key>title</key><string>Literature</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000070&amp;mt=10</string></dict><dict><key>title</key><string>History</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGenre?id=40000041&amp;mt=10</string></dict></array></dict><Include value="10" property="iTunes version" comparison="lt" url="http://r.mzstatic.com/blank.html"><Include value="1" property="disable ping" comparison="eq" url="http://r.mzstatic.com/blank.html"><dict><key>title</key><string>Ping</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/connectionsHome?l=en&amp;s=143462</string></dict></Include></Include><Include value="1000" property="iTunes version" comparison="lt" url="http://r.mzstatic.com/blank.html"><Include value="1" property="disable ping" comparison="eq" url="http://r.mzstatic.com/blank.html"><dict><key>title</key><string>Ping</string><key>url</key><string>http://c.itunes.apple.com/WebObjects/MZConnections.woa/wa/viewNetworkActivity</string><key>items</key><array><dict><key>title</key><string>Follow Requests</string><key>url</key><string>http://c.itunes.apple.com/WebObjects/MZConnections.woa/wa/viewPeople?tabId=requests</string></dict><dict><key>title</key><string>Recent Activity</string><key>url</key><string>http://c.itunes.apple.com/WebObjects/MZConnections.woa/wa/viewNetworkActivity</string></dict><dict><key>title</key><string>My Profile</string><key>url</key><string>http://c.itunes.apple.com/WebObjects/MZConnections.woa/wa/viewProfile</string></dict><dict><key>title</key><string>People</string><key>url</key><string>http://c.itunes.apple.com/WebObjects/MZConnections.woa/wa/viewPeople</string></dict><dict><key>divider</key><true/></dict><dict><key>title</key><string>Featured</string><key>url</key><string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRoom?fcId=389856663</string></dict></array></dict></Include></Include></array><key>account-menu</key><dict><key>title</key><string></string><key>url</key><string>https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/accountSummary</string><key>target</key><string>main</string><key>items</key><array><dict><key>title</key><string>Account</string><key>url</key><string>https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/accountSummary</string><key>target</key><string>main</string></dict><dict><key>title</key><string>Redeem</string><key>url</key><string>https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/redeemLandingPage</string><key>target</key><string>main</string></dict><dict><key>title</key><string>Wish List</string><key>url</key><string>https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/viewWishlist?l=en&amp;s=143462</string><key>target</key><string>main</string></dict><dict><key>title</key><string>Sign Out</string><key>url</key><string>https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/logoutWithSignOutKey</string><key>target</key><string>main</string></dict></array></dict></dict>
+            
+          
+          <key>pings</key>
+<array>
+  
+    <string>http://metrics.apple.com/b/ss/applesuperglobal/1/G.6--NS?pccr=true&amp;c22=XML&amp;ch=User%20Reviews&amp;v22=XML&amp;g=http%3A%2F%2Fitunes.apple.com%2FWebObjects%2FMZStore.woa%2Fwa%2FviewContentsUserReviews%3Fid%3D333903271%26pageNumber%3D0%26sortOrdering%3D4%26type%3DPurple%2BSoftware&amp;pageName=User%20Reviews-JP-Twitter-333903271&amp;h5=appleitmsap%2Cappleitmsjp</string>
+
+    
+    
+
+  
+</array>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </dict>
+      </plist>
+    </Protocol>
+    
+    
+  <Path>
+    
+    <PathElement displayName="Social Networking" inhibitDragging="false">http://itunes.apple.com/jp/genre/ios-social-networking/id6005?l=en&amp;mt=8</PathElement><PathElement displayName="Twitter, Inc." inhibitDragging="false">http://itunes.apple.com/jp/artist/twitter-inc./id296415947?l=en</PathElement><PathElement displayName="Twitter" inhibitDragging="false">http://itunes.apple.com/jp/app/twitter/id333903271?l=en&amp;mt=8</PathElement><PathElement displayName="Customer Reviews" inhibitDragging="false">http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?sortOrdering=4&amp;onlyLatestVersion=false&amp;sortAscending=true&amp;pageNumber=0&amp;type=Purple+Software&amp;id=333903271</PathElement>
+  </Path>
+
+
+
+  
+   
+   
+  
+  
+  
+  
+     
+       
+  
+       
+  
+       
+       <View rightInset="0" topInset="0" bottomInset="0" leftInset="0" stretchiness="1" backColor="ffffff">
+         <ScrollView rightInset="0" topInset="0" bottomInset="0" leftInset="0" stretchiness="1" horzScroll="as needed" vertScroll="as needed">
+    
+           <VBoxView>
+  <Include target="main" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/com.apple.jingle.appserver.MZDirectAction/fontStyles"></Include>
+
+  
+  
+    
+    
+
+    <View stretchiness="1">
+       
+       
+  
+
+       
+         
+         
+           
+  
+             
+               
+  
+  
+                 
+                 
+                  <PictureView topInset="0" horizontalBehavior="stretch" height="550" alt="" url="http://r.mzstatic.com/images/gradient/lightblue_short.jpg"></PictureView>
+                 
+               
+  
+
+               
+             
+           
+
+         
+       
+       
+       
+
+       <MatrixView rightInset="0" bottomInset="0" leftInset="0" topInset="0" rowFormat="100%,*">
+
+       
+         
+         
+          
+             
+    
+  <FontStyle name="textColor" color="000000"></FontStyle>
+  <FontStyle name="descriptionTextColor" color="223a5e"></FontStyle>
+  <FontStyle name="titleTextColor" color="2c2c2c"></FontStyle>
+  <FontStyle name="lockupTextColor" color="000000"></FontStyle>
+  
+  <VBoxView leftInset="25" rightInset="25" topInset="10" bottomInset="15">
+    <HBoxView>
+  <VBoxView stretchiness="1">
+    <TextView truncation="right" minWidth="400" leftInset="0" rightInset="0" styleSet="basic20" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b></b></SetFontStyle></TextView>
+    
+
+
+
+
+  
+
+  
+    
+<VBoxView topInset="15" bottomInset="10" shouldBeVisible="true">
+  <MatrixView columnFormat="62,10,100%" rowFormat="*">
+    
+    
+    
+    
+    
+      
+
+
+  
+  <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/jp/app/twitter/id333903271?l=en&amp;mt=8" draggingName="Twitter">
+    
+    <View alt="">
+      
+  <PictureView leftInset="0" proportional="1" width="100" topInset="0" verticalAlignment="top" height="100" rightInset="0" alt="Twitterartwork" reflection="1" mask="/images/masks/coverart/cover_mask_rounded_100x100.png" url="http://a4.mzstatic.com/us/r1000/105/Purple/v4/da/e4/0b/dae40b20-a256-c0cc-a356-39e882f063a1/mzl.ihukjwen.100x100-75.jpg" addShadowSizes="true"></PictureView>  
+
+
+
+  
+
+    </View>
+  
+  </GotoURL>
+
+
+
+
+    
+    
+    
+    <View/>
+    
+    
+    
+      <VBoxView>
+  
+    
+      <TextView topInset="0" truncation="right" leftInset="0" rightInset="0" styleSet="basic14Bold" bottomInset="5" textJust="left" maxLines="3">
+  <SetFontStyle normalStyle="textColor">
+    
+  <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/jp/app/twitter/id333903271?l=en&amp;mt=8" draggingName="Twitter">
+    Twitter
+  </GotoURL>
+
+
+
+  </SetFontStyle>
+</TextView>
+    
+  
+    
+      <TextView topInset="0" truncation="right" leftInset="0" rightInset="0" styleSet="basic11" bottomInset="0" textJust="left" maxLines="1">
+  <SetFontStyle normalStyle="textColor">
+    
+
+  Category: Social Networking
+
+
+  </SetFontStyle>
+</TextView>
+    
+  
+    
+      <TextView topInset="0" truncation="right" leftInset="0" rightInset="0" styleSet="basic11" bottomInset="0" textJust="left" maxLines="1">
+  <SetFontStyle normalStyle="textColor">
+    
+
+  Updated Apr 26, 2012
+
+
+  </SetFontStyle>
+</TextView>
+    
+  
+    
+      <TextView topInset="0" truncation="right" leftInset="0" rightInset="0" styleSet="basic11" bottomInset="0" textJust="left" maxLines="1">
+  <SetFontStyle normalStyle="textColor">
+    
+
+  Current Version: 4.2
+
+
+  </SetFontStyle>
+</TextView>
+    
+  
+    
+      <TextView topInset="0" truncation="right" leftInset="0" rightInset="0" styleSet="basic11" bottomInset="0" textJust="left" maxLines="1">
+  <SetFontStyle normalStyle="textColor">
+    
+
+  © 2012 Twitter, Inc.
+
+
+  </SetFontStyle>
+</TextView>
+    
+  
+    
+      <TextView topInset="0" truncation="right" leftInset="0" rightInset="0" styleSet="basic11" bottomInset="0" textJust="left" maxLines="1">
+  <SetFontStyle normalStyle="textColor">
+    
+
+  12.0 MB
+
+
+  </SetFontStyle>
+</TextView>
+    
+  
+    
+      <HBoxView topInset="9">
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <HBoxView rightInset="0" alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      
+      <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+        <TextView topInset="0" truncation="right" rightInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Free</b></SetFontStyle></TextView>
+      
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    
+  
+</HBoxView>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <HBoxView topInset="0" leftInset="0">
+      <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+          
+  
+  
+
+  <Test>
+  
+  
+    
+    <Test property="cart" comparison="eq" value="true">
+      <PictureButtonView leftInset="5" width="115" topInset="1" alt="disabled Get App, Twitter: Free" url="http://r.mzstatic.com/images/btn_getapp_16_0.png" height="16"></PictureButtonView>
+      <PictureButtonView leftInset="5" width="115" topInset="1" alt="disabled Get App, Twitter: Free" url="http://r.mzstatic.com/images/btn_getapp_16_0.png" height="16"></PictureButtonView>
+    </Test>
+  
+    
+    
+      <Test comparison="lt" value="100" property="restrict games">
+  
+        
+        <Test property="cart" comparison="eq" value="true">
+          <PictureButtonView leftInset="5" width="115" topInset="1" alt="disabled Get App, Twitter: Free" url="http://r.mzstatic.com/images/btn_getapp_16_0.png" height="16"></PictureButtonView>
+          <PictureButtonView leftInset="5" width="115" topInset="1" alt="disabled Get App, Twitter: Free" url="http://r.mzstatic.com/images/btn_getapp_16_0.png" height="16"></PictureButtonView>
+        </Test>
+        
+        
+         
+        
+          
+
+    <Buy freeDownload="1" preOrder="0" buyParams="productType=C&amp;salableAdamId=333903271&amp;pricingParameters=STDQ&amp;price=0&amp;origPageLocation=Lockup&amp;origPage=User%20Reviews-JP-Twitter-333903271&amp;origPageCh=User%20Reviews" itemName="Twitter">  
+            <Test property="cart" comparison="eq" value="true">
+              <PictureButtonView leftInset="5" width="115" topInset="1" picts="plain,pressed,rollover" alt="Get App, Twitter: Free" url="http://r.mzstatic.com/images/btn_getapp_16.png" height="16"></PictureButtonView> 
+              <PictureButtonView leftInset="5" width="115" topInset="1" picts="plain,pressed,rollover" alt="Get App, Twitter: Free" url="http://r.mzstatic.com/images/btn_getapp_16.png" height="16"></PictureButtonView>
+            </Test>
+          </Buy>
+
+
+          
+        
+      
+</Test>
+    
+    
+    
+    
+  
+</Test>
+  
+
+      
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+      
+    </HBoxView>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+</HBoxView> 
+    
+  
+    
+      <VBoxView leftInset="0">
+  
+    
+      <View rightInset="0" topInset="10" minWidth="100" leftInset="0" height="1" backColor="bac0c7"></View>
+    
+  
+    
+      <TextView topInset="5" truncation="right" leftInset="0" styleSet="basic11Bold" bottomInset="0" textJust="left" maxLines="1">
+  <SetFontStyle normalStyle="textColor">
+    
+  <GotoURL target="main" inhibitDragging="false" url="/WebObjects/MZStore.woa/wa/appRatings">
+    Rated 4+
+  </GotoURL>
+
+
+
+  </SetFontStyle>
+</TextView>
+    
+  
+</VBoxView>
+    
+  
+</VBoxView>
+    
+  </MatrixView>
+</VBoxView>
+
+  
+
+
+  </VBoxView>
+  <VBoxView width="410" topInset="0">
+
+    <View height="8"/>
+    <VBoxView rightInset="0" minWidth="390">
+      <View rightInset="0" viewName="RatingsFrame" bottomInset="30" leftInset="0">
+    <View>
+
+  
+
+    <Test comparison="greater or equal" value="7.0.0" property="iTunes version">
+  
+      <View rightInset="0" topInset="0" alt="" bottomInset="0" leftInset="0">
+  
+    <PictureButtonView leftInset="0" topInset="0" cap="4" rightInset="0" color="rgba(0,0,0,0.05)" mask="http://r.mzstatic.com/images/masks/rounded_box.png" bottomInset="0">
+      
+    </PictureButtonView>
+  
+</View>
+
+    
+</Test>
+
+    <Test comparison="less" value="7.0.0" property="iTunes version">
+  
+
+      
+        <VBoxView rightInset="1" topInset="0" bottomInset="0" leftInset="1">
+          
+            <HBoxView leftInset="0" rightInset="0" height="1">
+              <View width="3"/>
+              <View stretchiness="1" backColor="c2cbd6"></View>
+              <View width="3"/>
+            </HBoxView>
+            <HBoxView leftInset="0" rightInset="0" height="1">
+              <View width="2"/>
+              <View width="1" backColor="c2cbd6"></View>
+              <View stretchiness="1" backColor="c2cbd6"></View>
+              <View width="1" backColor="c2cbd6"></View>
+              <View width="2"/>
+            </HBoxView>
+            <HBoxView leftInset="0" rightInset="0" height="1">
+              <View width="1"/>
+              <View width="1" backColor="c2cbd6"></View>
+              <View stretchiness="1" backColor="c2cbd6"></View>
+              <View width="1" backColor="c2cbd6"></View>
+              <View width="1"/>
+            </HBoxView>
+          
+          <HBoxView leftInset="0" rightInset="0" stretchiness = "1">
+            <View width="1" backColor="c2cbd6"></View>
+            <View stretchiness="1" backColor="c2cbd6"></View>
+            <View width="1" backColor="c2cbd6"></View>
+          </HBoxView>
+          
+            <HBoxView leftInset="0" rightInset="0" height="1">
+              <View width="1"/>
+              <View width="1" backColor="c2cbd6"></View>
+              <View stretchiness="1" backColor="c2cbd6"></View>
+              <View width="1" backColor="c2cbd6"></View>
+              <View width="1"/>
+            </HBoxView>
+            <HBoxView leftInset="0" rightInset="0" height="1">
+              <View width="2"/>
+              <View width="1" backColor="c2cbd6"></View>
+              <View stretchiness="1" backColor="c2cbd6"></View>
+              <View width="1" backColor="c2cbd6"></View>
+              <View width="2"/>
+            </HBoxView>
+            <HBoxView leftInset="0" rightInset="0" height="1">
+              <View width="3"/>
+              <View stretchiness="1" backColor="c2cbd6"></View>
+              <View width="3"/>
+            </HBoxView>
+          
+        </VBoxView>
+      
+
+      
+
+    
+</Test>
+
+  
+
+  <View>
+    
+        <VBoxView topInset="10" rightInset="10" bottomInset="10" leftInset="10">
+
+            <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+              <TextView topInset="0" truncation="right" leftInset="0" headingLevel="2" styleSet="basic16" textJust="left" maxLines="1"><SetFontStyle normalStyle="descriptionTextColor"><b>CUSTOMER RATINGS</b></SetFontStyle></TextView>
+            
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+            <View height="5"/>
+          
+
+          
+            <Test property="toggle" id="5678">
+  
+  
+  
+<VBoxView topInset="8">
+
+
+  <HBoxView>
+    
+      
+  
+    <Test comparison="ge" value="8.0.1" property="iTunes version">
+  
+      
+        <VBoxView topInset="1" alt="" bottomInset="0">
+  <View alt="" stretchiness="1"></View>
+  
+          <Toggle toggle-id="5678">
+            
+              <View rightInset="3" width="9" alt="" height="9">
+  
+    <PictureButtonView leftInset="0" topInset="0" transparentClicks="1" rightInset="0" color="rgb(34,58,94)" alt="collapsed" mask="http://r.mzstatic.com/images/masks/disclosure_mask_closed.png" bottomInset="0">
+      
+    </PictureButtonView>
+  
+</View>
+
+            
+            
+          </Toggle>
+        
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+      
+      
+      <View width="0"></View>
+    
+</Test>
+  
+  
+
+
+    
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">Average rating for all versions: </SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <HBoxView rightInset="6" alt="2 and a half stars" leftInset="6">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic11" alt="" textJust="left" maxLines="1"><b><Color color="000000">&#189;</Color></b></TextView>
+  
+  
+  
+</HBoxView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+      
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="descriptionTextColor">24600 ratings</SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <View stretchiness="1" />
+  </HBoxView>
+
+
+  
+    
+    
+    
+    <View height="10"/>
+    <View height="1" backColor="bac0c7"></View>
+
+
+
+</VBoxView>
+
+
+  
+  
+<VBoxView topInset="8">
+
+
+  <HBoxView>
+    
+      
+  
+  
+    <VBoxView topInset="1" alt="" bottomInset="0">
+  <View alt="" stretchiness="1"></View>
+  
+      <Toggle toggle-id="5678">
+        
+          <View rightInset="3" width="9" alt="" height="9">
+  
+    <PictureButtonView leftInset="0" topInset="0" transparentClicks="1" rightInset="0" color="rgb(34,58,94)" alt="expanded" mask="http://r.mzstatic.com/images/masks/disclosure_mask_open.png" bottomInset="0">
+      
+    </PictureButtonView>
+  
+</View>
+
+        
+        
+      </Toggle>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+  
+
+
+    
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">Average rating for all versions: </SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <HBoxView rightInset="6" alt="2 and a half stars" leftInset="6">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic11" alt="" textJust="left" maxLines="1"><b><Color color="000000">&#189;</Color></b></TextView>
+  
+  
+  
+</HBoxView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+      
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="descriptionTextColor">24600 ratings</SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <View stretchiness="1" />
+  </HBoxView>
+
+
+  
+    
+    
+    
+    <MatrixView columnFormat="*,*,*" topInset="6" leftInset="10" rightInset="0" stretchiness="1">
+        <VBoxView>
+            <HBoxView rightInset="5" alt="5 stars, 5572 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="4 stars, 2680 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="3 stars, 3863 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="2 stars, 3059 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="1 star, 9426 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+        </VBoxView>
+        <MatrixView width="100" topInset="0" rowFormat="*,12,*,12,*,12,*,12,*,12,*">
+            <View height="1" backColor="bac0c7"></View>
+            <View width="59" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="28" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="40" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="32" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="100" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+        </MatrixView>
+        <VBoxView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">5572</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">2680</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">3863</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">3059</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">9426</SetFontStyle></TextView>
+        </VBoxView>
+    </MatrixView>
+    
+    
+    <View height="10"/>
+    <View height="1" backColor="bac0c7"></View>
+
+
+
+</VBoxView>
+
+
+
+</Test>
+          
+
+          
+            
+              <Test property="toggle" id="1234">
+  
+  
+  
+<VBoxView topInset="8">
+
+
+  <HBoxView>
+    
+      
+  
+  
+    <VBoxView topInset="1" alt="" bottomInset="0">
+  <View alt="" stretchiness="1"></View>
+  
+      <Toggle toggle-id="1234">
+        
+          <View rightInset="3" width="9" alt="" height="9">
+  
+    <PictureButtonView leftInset="0" topInset="0" transparentClicks="1" rightInset="0" color="rgb(34,58,94)" alt="expanded" mask="http://r.mzstatic.com/images/masks/disclosure_mask_open.png" bottomInset="0">
+      
+    </PictureButtonView>
+  
+</View>
+
+        
+        
+      </Toggle>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+  
+
+
+    
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">Average rating for the current version: </SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <HBoxView rightInset="6" alt="2 stars" leftInset="6">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+      
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="descriptionTextColor">636 ratings</SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <View stretchiness="1" />
+  </HBoxView>
+
+
+  
+    
+    
+    
+    <MatrixView columnFormat="*,*,*" topInset="6" leftInset="10" rightInset="0" stretchiness="1">
+        <VBoxView>
+            <HBoxView rightInset="5" alt="5 stars, 52 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="4 stars, 39 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="3 stars, 66 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="2 stars, 86 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+            <HBoxView rightInset="5" alt="1 star, 393 ratings">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_333366.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+        </VBoxView>
+        <MatrixView width="100" topInset="0" rowFormat="*,12,*,12,*,12,*,12,*,12,*">
+            <View height="1" backColor="bac0c7"></View>
+            <View width="13" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="9" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="16" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="21" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+            <View width="100" backColor="223a5e"></View>
+            <View height="1" backColor="bac0c7"></View>
+        </MatrixView>
+        <VBoxView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">52</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">39</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">66</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">86</SetFontStyle></TextView>
+            <TextView topInset="2" leftInset="5" styleSet="basic10" alt=""><SetFontStyle normalStyle="descriptionTextColor">393</SetFontStyle></TextView>
+        </VBoxView>
+    </MatrixView>
+    
+    
+    <View height="10"/>
+    <View height="1" backColor="bac0c7"></View>
+
+
+
+</VBoxView>
+
+
+  
+  
+<VBoxView topInset="8">
+
+
+  <HBoxView>
+    
+      
+  
+    <Test comparison="ge" value="8.0.1" property="iTunes version">
+  
+      
+        <VBoxView topInset="1" alt="" bottomInset="0">
+  <View alt="" stretchiness="1"></View>
+  
+          <Toggle toggle-id="1234">
+            
+              <View rightInset="3" width="9" alt="" height="9">
+  
+    <PictureButtonView leftInset="0" topInset="0" transparentClicks="1" rightInset="0" color="rgb(34,58,94)" alt="collapsed" mask="http://r.mzstatic.com/images/masks/disclosure_mask_closed.png" bottomInset="0">
+      
+    </PictureButtonView>
+  
+</View>
+
+            
+            
+          </Toggle>
+        
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+      
+      
+      <View width="0"></View>
+    
+</Test>
+  
+  
+
+
+    
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">Average rating for the current version: </SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+      <HBoxView rightInset="6" alt="2 stars" leftInset="6">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+      
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="descriptionTextColor">636 ratings</SetFontStyle></TextView>
+    
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+    <View stretchiness="1" />
+  </HBoxView>
+
+
+  
+    
+    
+    
+    <View height="10"/>
+    <View height="1" backColor="bac0c7"></View>
+
+
+
+</VBoxView>
+
+
+
+</Test>
+            
+          
+          
+            <HBoxView topInset="10" viewName="inlineRatingView" leftInset="0">
+    <TextView topInset="2" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>
+      
+      Click to rate
+    </b></SetFontStyle></TextView>
+    <PopupButtonView leftInset="3" topInset="0" height="18" action="Rating" normalStyle="lucida11" value="1" initialValue="1">
+        
+            <GotoURL target="main" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateContentInline?type=Purple+Software&amp;id=333903271&amp;rating=0"><MenuItem>Select</MenuItem></GotoURL>
+        
+            <GotoURL target="main" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateContentInline?type=Purple+Software&amp;id=333903271&amp;rating=5"><MenuItem>Five Stars - Highest</MenuItem></GotoURL>
+        
+            <GotoURL target="main" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateContentInline?type=Purple+Software&amp;id=333903271&amp;rating=4"><MenuItem>Four Stars</MenuItem></GotoURL>
+        
+            <GotoURL target="main" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateContentInline?type=Purple+Software&amp;id=333903271&amp;rating=3"><MenuItem>Three Stars</MenuItem></GotoURL>
+        
+            <GotoURL target="main" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateContentInline?type=Purple+Software&amp;id=333903271&amp;rating=2"><MenuItem>Two Stars</MenuItem></GotoURL>
+        
+            <GotoURL target="main" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateContentInline?type=Purple+Software&amp;id=333903271&amp;rating=1"><MenuItem>One Star - Lowest</MenuItem></GotoURL>
+        
+    </PopupButtonView>
+    
+</HBoxView>
+
+          
+        </VBoxView>
+    
+  </View>
+  
+</View>
+</View>
+    </VBoxView>
+
+  </VBoxView>
+</HBoxView>
+    <View height="20"/>
+
+    
+      
+        <VBoxView leftInset="0" rightInset="0" shouldBeVisible="true">
+      <HBoxView topInset="0">
+        <TextView topInset="0" truncation="right" minWidth="200" leftInset="0" styleSet="basic18" textJust="left" maxLines="1"><SetFontStyle normalStyle="descriptionTextColor"><b>CUSTOMER REVIEWS (ALL VERSIONS)</b></SetFontStyle></TextView>
+        <View stretchiness="1"/>
+
+
+        <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+
+          <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+
+            
+              <HBoxView rightInset="0" topInset="3">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=0&amp;type=Purple+Software&amp;id=333903271&amp;onlyLatestVersion=true">
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic12" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>575 Reviews For The Current Version</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=0&amp;type=Purple+Software&amp;id=333903271&amp;onlyLatestVersion=true">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+            
+
+            
+
+          
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+          <View stretchiness="1"/>
+
+          
+            <HBoxView rightInset="0" topInset="3">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?type=Purple+Software&amp;id=333903271">
+      <TextView topInset="0" truncation="right" leftInset="0" styleSet="basic12" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Write a Review</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?type=Purple+Software&amp;id=333903271">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+          
+
+          <HBoxView topInset="15" rightInset="0">
+            <TextView topInset="3" rightInset="0" styleSet="basic13" textJust="right"><SetFontStyle normalStyle="textColor">Sort By:</SetFontStyle></TextView>
+            <PopupButtonView leftInset="3" topInset="0" minHeight="18" normalStyle="lucida11" action="SortBy" value="4" initialValue="4"><GotoURL target="main" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=0&amp;type=Purple+Software&amp;id=333903271&amp;sortOrdering=1&amp;onlyLatestVersion=false"><MenuItem>Most Helpful</MenuItem></GotoURL><GotoURL target="main" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=0&amp;type=Purple+Software&amp;id=333903271&amp;sortOrdering=2&amp;onlyLatestVersion=false"><MenuItem>Most Favorable</MenuItem></GotoURL><GotoURL target="main" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=0&amp;type=Purple+Software&amp;id=333903271&amp;sortOrdering=3&amp;onlyLatestVersion=false"><MenuItem>Most Critical</MenuItem></GotoURL><GotoURL target="main" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=0&amp;type=Purple+Software&amp;id=333903271&amp;sortOrdering=4&amp;onlyLatestVersion=false"><MenuItem>Most Recent</MenuItem></GotoURL></PopupButtonView>
+          </HBoxView>
+
+        
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+      </HBoxView>
+
+      
+      <HBoxView topInset="0">
+        
+        <TextView topInset="0" leftInset="0" styleSet="basic12" textJust="left"><SetFontStyle normalStyle="textColor"><b>Page 1 of 425</b></SetFontStyle></TextView>
+        
+            <GotoURL target="main" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=1&amp;type=Purple+Software&amp;id=333903271&amp;sortOrdering=4&amp;onlyLatestVersion=false"><PictureButtonView leftInset="5" width="12" topInset="1" picts="plain,pressed,rollover" transparentClicks="1" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView></GotoURL>
+        
+      </HBoxView>
+      
+
+      <View height="10"/>
+
+      <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+
+      
+
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>問題点</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581967783">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581967783">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=181727342">
+            
+            えだまめ71
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">日本語トレンドが表示されない
+
+プロフィール等の更新が上手くされない
+
+結果
+使いにくい</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581967783" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581967783" frameViewName="viewVote581967783"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581967783" frameViewName="viewVote581967783"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>.</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="4 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581934568">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581934568">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">by Anonymous</SetFontStyle></TextView>
+      </HBoxView>
+    
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">もっとスマートにリストで表示出来たらいいなと思います</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581934568" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581934568" frameViewName="viewVote581934568"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581934568" frameViewName="viewVote581934568"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>超 お勧め～❕✨🌟✨🌟✨🌟✨</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="5 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581931062">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581931062">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=188445105">
+            
+            紅JADE
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">今、マイタウン っていうアプリに
+超 ハマりまくってま～す😊
+
+実際に街に出て物件を探して集めて
+自分だけの街作りをするんです✨🌟✨
+
+お城や 観光名所や 野球場や カラオケやコンビニやドンキホーテや 東京ドームや 東京タワー などなど もう色々❕
+
+書ききれないですが❕
+
+都道府県別のレアな物件をGET‼ しに
+
+観光や旅行にも思わず行きたくなってしまう 💨💨💨 🎶🎵🎶🎵🎶🎵🎶
+
+超ハマってしまう アプリです👍
+
+夫婦で楽しんでますが毎日のお出掛けが超楽しくなって夢中になる事😊
+
+間違いな～し❕✨🌟✨🌟✨🌟✨
+
+カップルなどには 超お勧めで～す✌
+
+激ヤバで  超ハマりまくり～❕✨🌟✨
+
+なので
+
+皆さんも マイタウンを
+
+検索 検索～ してみて下さい 急げ～💨
+
+お互いに💝ポイント💝も貰えるので🎁
+
+🎉招待コード🎉
+
+🔥🔥🔥 1201001 🔥🔥🔥
+🔥🔥🔥 1201001 🔥🔥🔥
+🔥🔥🔥 1201001 🔥🔥🔥
+🔥🔥🔥 1201001 🔥🔥🔥
+🔥🔥🔥 1201001 🔥🔥🔥
+
+を 使って 皆さんも始めてみて
+
+                      紅か ～～～～～～～～🔥
+
+一緒に マイタウン を
+                 楽しみましょうよ 😊😊😊
+
+                         紅JADE でした～👋
+
+                              お邪魔しました～🙇</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581931062" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581931062" frameViewName="viewVote581931062"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581931062" frameViewName="viewVote581931062"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>早く直してー</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581896880">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581896880">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=231513306">
+            
+            opyn510
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">見つけるが全く更新されない</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581896880" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581896880" frameViewName="viewVote581896880"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581896880" frameViewName="viewVote581896880"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>おい</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="3 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581822535">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581822535">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">by Anonymous</SetFontStyle></TextView>
+      </HBoxView>
+    
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">ログインできん</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581822535" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581822535" frameViewName="viewVote581822535"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581822535" frameViewName="viewVote581822535"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>残念</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581815259">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581815259">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">by Anonymous</SetFontStyle></TextView>
+      </HBoxView>
+    
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">プロフィールを変更しても、
+表示されるのがとても遅い。
+最近プロフィールが表示されない。
+Twitter自体はいいんですが…</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581815259" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581815259" frameViewName="viewVote581815259"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581815259" frameViewName="viewVote581815259"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>プロフなて</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="3 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581812820">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581812820">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=237689651">
+            
+            Chuthon
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">プロフ更新しようとしても
+更新できていないのが残念です</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581812820" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581812820" frameViewName="viewVote581812820"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581812820" frameViewName="viewVote581812820"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>最悪すぎて…</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581783987">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581783987">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=248960360">
+            
+            屋のしよ
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">@通知もTLも更新されないとか酷すぎる…。</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581783987" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581783987" frameViewName="viewVote581783987"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581783987" frameViewName="viewVote581783987"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>とってもいいけど</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581749893">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581749893">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=220354667">
+            
+            遥菜
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">翻訳機能が無いのが不便…
+
+画像が1つずつしかUP出来ないよ(´Д` )
+
+後トレンド英語
+ばっかなんですけど( ；´Д｀)
+Wi-Fiだと動かない(´Д` )</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581749893" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581749893" frameViewName="viewVote581749893"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581749893" frameViewName="viewVote581749893"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>👎</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581736992">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581736992">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=217243930">
+            
+            ぴよぴん
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">SafariからTwitter開いて、プロフィール変更したけど、アプリでは前のままだし、プロフィールになにも書いてない！困ります</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581736992" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581736992" frameViewName="viewVote581736992"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581736992" frameViewName="viewVote581736992"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>(Ｔ＿Ｔ)</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581698030">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581698030">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=244644434">
+            
+            ベースTARO
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">一回ログアウトしてログインしようとしたらログインできなかった。
+パスワードあってるのに。
+早く改善してください</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581698030" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581698030" frameViewName="viewVote581698030"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581698030" frameViewName="viewVote581698030"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>ダメ！ダメ！</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581581870">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581581870">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=149651386">
+            
+            とらせんべい
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">またツイートできません。これって公式アプリなんですよね？いつになったらちゃんと動きますかね？対応も超遅いし。無料にしても酷過ぎる。星１つもあげたくない！</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581581870" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581581870" frameViewName="viewVote581581870"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581581870" frameViewName="viewVote581581870"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>なにこれ💢</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581574536">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581574536">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=238943782">
+            
+            redbull07261
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">エラーなりすぎやし、しまいにはアカウントさえ見れなくなったし💢
+このアプリは       Ｇ Zか💢</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581574536" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581574536" frameViewName="viewVote581574536"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581574536" frameViewName="viewVote581574536"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>どうしたらいい？</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581521415">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581521415">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=248867319">
+            
+            poyo2012
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          12-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">つぶやく時に漢字が使えなくなったΣ（ﾟдﾟlll）
+エラーにもなりやすいし…</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581521415" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581521415" frameViewName="viewVote581521415"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581521415" frameViewName="viewVote581521415"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>シンプルでいいんですが…</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="3 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581350027">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581350027">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=164587588">
+            
+            281481
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">日本のTwitterでのトレンドやHOTワードが分かったら嬉しいかも。リスト登録やフォロー承認、プロフィールの自己紹介欄の改行も可能にしていただけると嬉しいです。
+
+プロフィール画像(アイコン)がすぐに変更されなくなった。アップデート前はすぐに変更されていました。画質も凄く落ちてしまう…なんとはならないでしょうか</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581350027" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581350027" frameViewName="viewVote581350027"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581350027" frameViewName="viewVote581350027"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>使いやすいけど</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581285205">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581285205">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=230987387">
+            
+            躬咲
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">アップデートしてからトレンドが全部英語。直してほしいです。</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581285205" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581285205" frameViewName="viewVote581285205"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581285205" frameViewName="viewVote581285205"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>落ちる</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="3 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581256635">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581256635">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">by Anonymous</SetFontStyle></TextView>
+      </HBoxView>
+    
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">ユーザーのブロックするを押した瞬間に落ちる
+ブロックもできてない</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581256635" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581256635" frameViewName="viewVote581256635"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581256635" frameViewName="viewVote581256635"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>...</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581243718">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581243718">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=173317961">
+            
+            ayashinki
+            
+          </GotoURL>
+          
+             - 
+            Version 4.1.1
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">使いにくい。画像のサムネイル表示機能があればな～。文字サイズも大きい。翻訳機能は何でなくしたんですか？不便。</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581243718" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581243718" frameViewName="viewVote581243718"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581243718" frameViewName="viewVote581243718"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>サービスもシンプル</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="5 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581219242">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581219242">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=184491814">
+            
+            り う
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">アプリもシンプル</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581219242" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581219242" frameViewName="viewVote581219242"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581219242" frameViewName="viewVote581219242"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>、</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581216494">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581216494">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=230875175">
+            
+            こーすー
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">エラーなりすぎ！
+言っても改善されないし
+
+見やすくて好きだったけど
+全然使い物にならない</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581216494" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581216494" frameViewName="viewVote581216494"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581216494" frameViewName="viewVote581216494"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>エラー</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581212611">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581212611">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=244945628">
+            
+            ドドリアドンタコス人間
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">何故か急にエラーになって
+サインアウトしてからまたサインインしたらユーザー名かパスワードが違います ってでてくるんだけど
+どゆことー😡😡😡😡😡
+Twitterもう出来ないのか～！
+頼むよー！</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581212611" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581212611" frameViewName="viewVote581212611"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581212611" frameViewName="viewVote581212611"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>最悪アプリ</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="1 star">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581204483">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581204483">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=37138149">
+            
+            ｙｎ
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">バグを放置するな</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581204483" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581204483" frameViewName="viewVote581204483"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581204483" frameViewName="viewVote581204483"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>普通に使う分にはいい</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581150179">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581150179">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=248396287">
+            
+            祇園ズムダイクン
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">ただ、データの反映ががちでおっっっそいんだなこれが。
+リツイートもけせないし。なんとかなんないかのう、神命どん。</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581150179" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581150179" frameViewName="viewVote581150179"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581150179" frameViewName="viewVote581150179"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>(´･_･`)</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="2 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581136503">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581136503">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=244395194">
+            
+            ぬなとてなにやなやら
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">プロフのツイート数が増えなくなった。
+どうにかして</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581136503" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581136503" frameViewName="viewVote581136503"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581136503" frameViewName="viewVote581136503"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+        <VBoxView leftInset="10" rightInset="0" stretchiness="1">
+
+  <HBoxView bottomInset="3">
+    <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>落ちる</b></SetFontStyle></TextView>
+    <View width="10"/>
+    <HBoxView stretchiness="1">
+      
+        <HBoxView topInset="1" alt="3 stars">
+  
+  
+    <PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView><PictureView leftInset="0" width="13" topInset="0" transparentClicks="true" height="13" alt="" url="http://r.mzstatic.com/images/colored_assets/stars/rating_star_000000.png"></PictureView>
+    
+  
+  
+  
+</HBoxView>
+      
+      <View width="10"/>
+      <View stretchiness="1"/>
+      <HBoxView rightInset="0">
+
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581128710">
+      <TextView topInset="1" truncation="right" leftInset="0" styleSet="basic11" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor"><b>Report a Concern</b></SetFontStyle></TextView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+  
+  <VBoxView alt="">
+  <View alt="" stretchiness="1"></View>
+  
+    <GotoURL target="main" inhibitDragging="false" alt="" url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportUserReviewConcern?userReviewId=581128710">
+      <PictureButtonView leftInset="2" width="12" topInset="2" picts="plain,pressed,rollover" transparentClicks="1" alt="" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView>
+    </GotoURL>
+  
+  <View alt="" stretchiness="1"></View>
+</VBoxView>
+
+</HBoxView>
+
+    </HBoxView>
+  </HBoxView>
+
+  
+    
+    
+      <HBoxView>
+        <TextView topInset="0" truncation="right" leftInset="0" squishiness="1" styleSet="basic13" textJust="left" maxLines="1"><SetFontStyle normalStyle="textColor">
+          by
+          <GotoURL target="main" inhibitDragging="false" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=232534156">
+            
+            4268428
+            
+          </GotoURL>
+          
+             - 
+            Version 4.2
+          
+           - 
+          11-May-2012
+        </SetFontStyle></TextView>
+      </HBoxView>
+      <View height="10"/>
+
+    
+  
+
+  <View height="5"/>
+
+  <TextView topInset="2" leftInset="0" rightInset="0" styleSet="normal11" textJust="left"><SetFontStyle normalStyle="textColor">アップデートしてから落ちやすい。</SetFontStyle></TextView>
+  <View height="15"/>
+  <HBoxView>
+    <HBoxView viewName="viewVote581128710" stretchiness="1">
+        
+        <View stretchiness="1" />
+        <TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Was this review helpful?</b> </SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=1&amp;s=143462&amp;userReviewId=581128710" frameViewName="viewVote581128710"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>Yes</b></SetFontStyle></TextView></LoadFrameURL><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"> /</SetFontStyle></TextView><LoadFrameURL url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?p=333903271&amp;textColor=000000&amp;vote=0&amp;s=143462&amp;userReviewId=581128710" frameViewName="viewVote581128710"><TextView topInset="0" leftInset="0" styleSet="basic11" textJust="left"><SetFontStyle normalStyle="textColor"><b>No</b></SetFontStyle></TextView></LoadFrameURL>
+    </HBoxView>
+  </HBoxView>
+  <View height="10"/>
+</VBoxView>
+        <View rightInset="0" topInset="10" bottomInset="15" leftInset="10" height="1" stretchiness="1" backColor="afb7c3"></View>
+      
+
+      </VBoxView>
+
+      
+      <HBoxView topInset="15" bottomInsert="5">
+        
+        <TextView topInset="0" leftInset="0" styleSet="basic12" textJust="left"><SetFontStyle normalStyle="textColor"><b>Page 1 of 425</b></SetFontStyle></TextView>
+        
+            <View width="2" />
+            <GotoURL target="main" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?pageNumber=1&amp;type=Purple+Software&amp;id=333903271&amp;sortOrdering=4&amp;onlyLatestVersion=false"><PictureButtonView leftInset="5" width="12" topInset="1" picts="plain,pressed,rollover" transparentClicks="1" url="http://r.mzstatic.com/images/arrowoutline/arrow_000000_r.png" height="12"></PictureButtonView></GotoURL>
+        
+      </HBoxView>
+      
+
+  </VBoxView>
+
+
+           
+         
+       
+
+
+        
+          
+            
+            <VBoxView>
+              <View height="30" />
+
+              <HBoxView rightInset="0" alt="" bottomInset="0" leftInset="0">
+  <View alt="" stretchiness="1"></View>
+  
+                <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"><SetFontStyle normalStyle="textColor">
+                  Copyright
+                </SetFontStyle></TextView>
+                <View width="2"/>
+                <TextView topInset="0" normalStyle="lucida12" leftInset="0" textJust="center"><SetFontStyle normalStyle="textColor">&#169;</SetFontStyle></TextView>
+                <View width="2"/>
+                <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"><SetFontStyle normalStyle="textColor">
+                  2012 iTunes K.K
+                </SetFontStyle></TextView>
+                <View width="2"/>
+                <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"><SetFontStyle normalStyle="textColor">
+                  <OpenURL target="main" url="http://www.apple.com/legal/">
+                    All rights reserved.
+                  </OpenURL>
+                </SetFontStyle></TextView>
+                <TextView width="6" topInset="2" styleSet="basic9" alt="" textJust="center"><SetFontStyle normalStyle="textColor"> | </SetFontStyle></TextView>
+                <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"><SetFontStyle normalStyle="textColor">
+                  <OpenURL target="main" url="http://www.apple.com/legal/privacy/">
+                    Privacy Policy
+                  </OpenURL>
+                </SetFontStyle></TextView>
+                
+                
+                  <TextView width="6" topInset="2" styleSet="basic9" alt="" textJust="center"><SetFontStyle normalStyle="textColor"> | </SetFontStyle></TextView>
+                  <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"><SetFontStyle normalStyle="textColor">
+                    <OpenURL target="main" url="http://www.apple.com/legal/itunes/jpen/terms.html">
+                      Terms of Service
+                    </OpenURL>
+                  </SetFontStyle></TextView>
+                  <TextView width="6" topInset="2" styleSet="basic9" alt="" textJust="center"><SetFontStyle normalStyle="textColor"> | </SetFontStyle></TextView>
+                  <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"><SetFontStyle normalStyle="textColor">
+                    <OpenURL target="main" url="http://www.apple.com/legal/itunes/jpen/sales.html">
+                      Terms of Sale
+                    </OpenURL>
+                  </SetFontStyle></TextView>
+                
+                
+                  <TextView width="6" topInset="2" styleSet="basic9" alt="" textJust="center"><SetFontStyle normalStyle="textColor"> | </SetFontStyle></TextView>
+                  <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"><SetFontStyle normalStyle="textColor">
+                    <OpenURL target="main" url="http://www.apple.com/legal/itunes/jpen/about.html">
+                      About Us
+                    </OpenURL>
+                  </SetFontStyle></TextView>
+                
+
+              
+  <View alt="" stretchiness="1"></View>
+</HBoxView>
+
+              
+
+              
+              <View height="10" />
+            </VBoxView>
+          
+          
+        
+
+        
+
+        
+
+      </MatrixView>
+
+      
+      
+
+      
+    </View>
+  
+</VBoxView>
+</ScrollView>
+      
+           
+           
+      
+           
+         </View>
+  
+  
+         
+  
+       
+  
+    
+    
+    
+    
+
+  
+    
+  
+
+    </Document>    
+
+
+
+
+
+

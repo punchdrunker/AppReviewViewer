@@ -95,9 +95,9 @@ class AppStoreReview < AbstractReview
                  'User-Agent' => user_agent,
                  'X-Apple-Store-Front' => '143462-1'
                 ).read
-                document = Nokogiri::XML(xml)
-                reviews = get_reviews(document, app_id)
-                insert_reviews(reviews)
+      document = Nokogiri::XML(xml)
+      reviews = get_reviews(document, app_id)
+      insert_reviews(reviews)
     end
   end
 end

@@ -29,7 +29,7 @@ class AppReview
   end
 
   def is_app_store_app(id)
-    return (/\A\d+\Z/ =~ id) ? true : false
+    return (/\A\d+\Z/ =~ id.to_s) ? true : false
   end
 
 end
