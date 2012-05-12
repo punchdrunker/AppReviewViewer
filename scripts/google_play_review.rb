@@ -48,13 +48,8 @@ class GooglePlayReview < AbstractReview
     end
 
     doc.xpath("//div[@class='doc-review']").each do |node|
-      device ,version = nil
-      if /（([^）]+)、バージョン (.+)）/ =~ node.text
-        device = $1
-        version = $2
-      end
-      versions.push(version)
-      devices.push(device)
+      versions.push(get_version(node.text))
+      devices.push(get_device(node.text))
     end
 
     items = [];
@@ -88,5 +83,20 @@ class GooglePlayReview < AbstractReview
       reviews = get_reviews(html_string, app_id)
       insert_reviews(reviews)
     end
+  end
+
+  def get_version(text)
+    if /（([^）]+)、バージョン ([^）]+)）/ =~ text
+      version = $2
+    end
+    return version
+  end
+
+  def get_device(text)
+    device = nil
+    if /（([^）]+)、バージョン (.+)）/ =~ text
+      device = $1
+    end
+    return device
   end
 end

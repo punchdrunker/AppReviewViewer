@@ -27,4 +27,13 @@ class GooglePlayReviewTest < Test::Unit::TestCase
     assert_equal(expect, reviews[8])
   end
 
+  def test_get_version
+    text = "ユーザー名（2012/04/19） （SEMC Xperia Arco、バージョン 3.3.4）本文（テスト） テスト（テスト） "
+    assert_equal('3.3.4', @obj.get_version(text))
+  end
+
+  def test_get_device
+    text = "ユーザー名（2012/04/19） （SEMC Xperia Arco、バージョン 3.3.4）本文（テスト） テスト（テスト） "
+    assert_equal('SEMC Xperia Arco', @obj.get_device(text))
+  end
 end
