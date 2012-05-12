@@ -31,7 +31,11 @@
         });
         -->
         </script>
+        <% if @app %>
         <title>App Reviews - <%= @app[:name] %></title>
+        <% else %>
+        <title>App Reviews</title>
+        <% end %>
     </head>
     <body>
         <div class="navbar navbar-fixed-top"> 
