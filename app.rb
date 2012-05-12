@@ -3,20 +3,8 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/reloader'
-require 'sequel'
-require 'logger'
-require 'yaml'
-require 'pp'
+require File.dirname(__FILE__) + '/config/init'
 
-Sequel.connect('sqlite://appreview.db')
-
-HERE = File.dirname(__FILE__)
-$LOAD_PATH << HERE + '/lib'
-require 'model/apps'
-require 'model/reviews'
-
-log = Logger.new(HERE+'/logs/debug.log')
-log.level = Logger::DEBUG
 
 use Rack::Session::Cookie,
   :expire_after => 2592000,
@@ -28,10 +16,6 @@ helpers do
   def partial(page, locals = {}, options={})
     erb page.to_sym, options.merge!(:layout => false), locals
   end
-end
-
-configure do
-#  CONFIG = YAML.load_file(HERE + '/config/config.yaml')
 end
 
 get '/' do
