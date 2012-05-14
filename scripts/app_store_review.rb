@@ -33,7 +33,7 @@ class AppStoreReview < AbstractReview
         users.push info[0]
 
         if info[1]
-          versions.push(info[1])
+          versions.push(get_version(info[1]))
         else
           versions.push("")
         end
@@ -99,5 +99,13 @@ class AppStoreReview < AbstractReview
       reviews = get_reviews(document, app_id)
       insert_reviews(reviews)
     end
+  end
+
+  def get_version(text)
+    version = nil
+    if /Version([\d\.]+)/ =~ text
+      version = $1
+    end
+    return version
   end
 end

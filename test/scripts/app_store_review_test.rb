@@ -18,11 +18,14 @@ class AppStoreReviewTest < Test::Unit::TestCase
       :date=>"11-May-2012",
       :title=>"落ちる",
       :body=>"アップデートしてから落ちやすい。",
-      :version=>"Version4.2",
+      :version=>"4.2",
       :app_id=>"333903271"}
 
     assert_equal(25, reviews.size)
     assert_equal(expect, reviews[24])
   end
 
+  def test_get_version
+    assert_equal('11.1', @obj.get_version('Version11.1'))
+  end
 end
