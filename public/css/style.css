@@ -68,3 +68,27 @@ body {
     height: 60px;
     margin-bottom: 20px;
 }
+
+#evaluation_graph div.cell {
+    height: 60px;
+    display: inline-block;
+    /display: inline;
+    /zoom: 1;
+}
+
+#evaluation_graph_caption div.caption {
+    display: inline-block;
+    /display: inline;
+    /vertical-align: middle;
+    /zoom: 1;
+}
+
+#evaluation_graph_caption div.caption span {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    /display: inline;
+    /vertical-align: middle;
+    /zoom: 1;
+}
+

@@ -11,12 +11,10 @@ function render_graph(data){
         }
 
         for (var i = 0; i < data.length; i++) {
-            var cell = $("<div>");
+            var cell = $("<div class='cell'>");
             cell.css({
                 "background-color": COLORS[i],
-                "display": "inline-block",
-                "width": Math.floor(GRAPH_WIDTH * data[i].value / totalScore) + "px",
-                "height": "60px"
+                "width": Math.floor(GRAPH_WIDTH * data[i].value / totalScore) + "px"
             });
             graphElement.append(cell);
         }
@@ -24,17 +22,10 @@ function render_graph(data){
 
     var render_caption = function() {
         for (var i = 0; i < data.length; i++) {
-           var caption = $("<div>");
-            caption.css({
-                "display": "inline-block"
-            });
-
+            var caption = $("<div class='caption'>");
             var rect = $("<span>");
             rect.css({
-                "background-color": COLORS[i],
-                "display": "inline-block",
-                "width": "10px",
-                "height": "10px"
+                "background-color": COLORS[i]
             });
             caption.append(rect);
             caption.append(":");
