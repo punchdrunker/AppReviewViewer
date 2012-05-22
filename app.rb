@@ -30,6 +30,7 @@ get '/' do
 
   if @app
     if params[:version] && params[:version]!='ALL'
+      @version = params[:version].to_s
       @reviews = Reviews.filter(:app_id => @app[:app_id], :version => params[:version])
     else
       @reviews = Reviews.filter(:app_id => @app[:app_id])

@@ -54,7 +54,7 @@
                 <div class="float-menu">
               <%= partial(:_side_menu, :selected_app => @app, :apps => @apps) %>
               <% if @app %>
-              <%= partial(:_query_panel, :versions => @versions, :app_id => @app[:app_id]) %>
+                  <%= partial(:_query_panel, :version => @version, :versions => @versions, :app_id => @app[:app_id]) %>
               <% end %>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <div class="container">
                     <% if @app %>
                       <div class="row">
-                      <h1><%= @app[:name] %>のレビュー</h1>
+                        <h1><%= @app[:name] %>のレビュー<%if @version %> [Version: <%= @version %>]<% end %></h1>
                       </div>
 
                       <%= partial(:_star_panel, :stars => @stars) %>

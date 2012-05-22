@@ -7,8 +7,13 @@
         <label class="control-label">バージョン</label>
         <select name="version" class="span2">
           <option>ALL</option>
-          <% versions.each do |version| %>
-            <option><%= version[:version] %></option>
+          <% versions.each do |v| %>
+            <% if version %>
+                <% selected = (version.to_s==v[:version].to_s)?'selected':'' %>
+                <option <%= selected %>><%= v[:version] %></option>
+            <% else %>
+            <option><%= v[:version] %></option>
+            <% end %>
           <% end %>
         </select>
       </div>
