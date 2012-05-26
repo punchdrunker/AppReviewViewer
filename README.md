@@ -14,6 +14,7 @@ Sinatraベースです。
 依存ライブラリ
 -------
 以下のrubygemsを利用しているので、installが必要です。
+
 * json
 * nokogiri
 * sequel
@@ -30,7 +31,13 @@ mecab-rubyは無くても動作するはずです。
 
 使い方
 -------
-以下のコマンドで起動します
+bundlerが利用できる環境であれば、Gemfileのあるディレクトリで、
+
+    $ bundle install
+
+と実行すれば依存ライブラリ(mecab-ruby以外)がインストールされます。
+
+その後、以下のコマンドで起動します
 
     $ ruby app.rb
 
