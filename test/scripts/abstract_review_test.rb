@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-require File.dirname(__FILE__) + '/script_helper.rb'
+$:<<File.dirname(__FILE__)
+require 'script_helper'
 
 class AbstractReviewTest < Test::Unit::TestCase
   def setup

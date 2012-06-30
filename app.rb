@@ -8,13 +8,19 @@ require File.dirname(__FILE__) + '/config/init'
 
 use Rack::Session::Cookie,
   :expire_after => 2592000,
-  :secret => 'hogefuga'
+  :secret => 'ChangeMe'
 
 helpers do
   include Rack::Utils
   alias_method :h, :escape_html
   def partial(page, locals = {}, options={})
     erb page.to_sym, options.merge!(:layout => false), locals
+  end
+
+  def formatted_date(date_string)
+    return '' if date_string.to_s == ''
+    date = Time.parse(date_string)
+    date.strftime("%Y/%m/%d")
   end
 end
 
@@ -35,11 +41,11 @@ get '/' do
     else
       @reviews = Reviews.filter(:app_id => @app[:app_id])
     end
-    @keywords = get_keywords(@reviews)
-    @stars = get_star_count(@reviews)
-    @versions = Reviews.versions(@app[:app_id])
+    @keywords = _get_keywords(@reviews)
+    @stars = _get_star_count(@reviews)
+    @versions = Reviews.versions(@app[:app_id]).sort_by{|val| -val[:version].to_f}
   else
-    @stars = get_star_count
+    @stars = _get_star_count
   end
 
   erb :index
@@ -57,7 +63,7 @@ post '/app/create' do
   end
 end
 
-def get_star_count(reviews=[])
+def _get_star_count(reviews=[])
   stars = [0,0,0,0,0]
   reviews.each do |review|
     key = review[:star].to_i - 1
@@ -66,7 +72,7 @@ def get_star_count(reviews=[])
   return stars
 end
 
-def get_keywords(reviews=[])
+def _get_keywords(reviews=[])
   keywords = {}
   reviews.each do |review|
     if review[:nodes]

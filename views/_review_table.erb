@@ -21,7 +21,7 @@
             <td><%= review[:id] %></td>
             <td><%= review[:star] %></td>
             <td><%= review[:user] %></td>
-            <td><%= review[:date] %></td>
+            <td><%= formatted_date review[:date] %></td>
             <td><%= review[:version] %></td>
             <td><h5><%= review[:title] %></h5><%= review[:body] %></td>
             <td><%= review[:device] %></td>
