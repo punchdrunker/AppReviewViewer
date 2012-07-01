@@ -24,8 +24,12 @@ helpers do
   end
 
   def add_wbr(s)
-    s.gsub!('<br />',"\n")
-    return s.scan(/.{1,4}/).join("<wbr>").gsub("\n", "<br />")
+    string_array = s.split('<br />')
+    formatted_string_array = []
+    string_array.each do |string|
+      formatted_string_array.push string.scan(/.{1,4}/).join("<wbr>")
+    end
+    return formatted_string_array.join("<br />")
   end
 end
 
