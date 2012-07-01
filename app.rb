@@ -22,6 +22,11 @@ helpers do
     date = Time.parse(date_string)
     date.strftime("%Y/%m/%d")
   end
+
+  def add_wbr(s)
+    s.gsub!('<br />',"\n")
+    return s.scan(/.{1,4}/).join("<wbr>").gsub("\n", "<br />")
+  end
 end
 
 get '/' do
