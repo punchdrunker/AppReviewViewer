@@ -86,6 +86,16 @@ class GooglePlayReview < AbstractReview
   end
 
   def get_version(text)
+    version = nil
+    if /、バージョン ([0-9\.]+)/ =~ text
+      version = $1
+    end
+    return get_version_with_parenthese(text) unless version
+    return version
+  end
+
+  def get_version_with_parenthese(text)
+    version = nil
     if /（([^）]+)、バージョン ([^）]+)）/ =~ text
       version = $2
     end
@@ -93,6 +103,15 @@ class GooglePlayReview < AbstractReview
   end
 
   def get_device(text)
+    device = nil
+    if /- ([A-Za-z].+)、バージョン/ =~ text
+      device = $1
+    end
+    return get_device_with_parenthese(text) unless device
+    return device
+  end
+
+  def get_device_with_parenthese(text)
     device = nil
     if /（([^）]+)、バージョン (.+)）/ =~ text
       device = $1
