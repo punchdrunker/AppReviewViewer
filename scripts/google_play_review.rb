@@ -36,7 +36,7 @@ class GooglePlayReview < AbstractReview
     end
 
     doc.xpath("//span[@class='doc-review-date']").each do |node|
-      dates.push(node.text)
+      dates.push(node.text.sub(' - ', ''))
     end
 
     doc.xpath("//div[@class='ratings goog-inline-block']").each do |node|
@@ -48,8 +48,8 @@ class GooglePlayReview < AbstractReview
     end
 
     doc.xpath("//div[@class='doc-review']").each do |node|
-      versions.push(get_version(node.text))
-      devices.push(get_device(node.text))
+      versions.push(get_version(node.inner_html))
+      devices.push(get_device(node.inner_html))
     end
 
     items = [];

@@ -9,7 +9,7 @@ class GooglePlayReviewTest < Test::Unit::TestCase
   # def teardown
   # end
 
-  def __test_get_reviews
+  def test_get_reviews
     f = open(File.dirname(__FILE__) + '/reviews/google_play.txt')
     data = f.read
     reviews = @obj.get_reviews(data, 'com.twitter.android')
@@ -26,6 +26,24 @@ class GooglePlayReviewTest < Test::Unit::TestCase
     assert_equal(10, reviews.size)
     assert_equal(expect, reviews[8])
   end
+
+  def test_get_reviews_rare_sample
+    f = open(File.dirname(__FILE__) + '/reviews/google_play_new.txt')
+    data = f.read
+    reviews = @obj.get_reviews(data, 'com.twitter.android')
+    expect = {:star=>"評価: 星 5.0 個（良い）",
+      :user=>"テストの名前",
+      :date=>"2012/07/30",
+      :title=>"4.1.1",
+      :body=> "Nexus 7で動かない",
+      :version=>"4.2.0",
+      :device=>"HTC Desire HD",
+      :app_id=>"com.twitter.android"}
+
+    assert_equal(1, reviews.size)
+    assert_equal(expect, reviews[0])
+  end
+
 
   def test_get_version
     text = "ユーザー名 - 2012/07/22 - Sharp IS11SH、バージョン 4.1.0 本文（テスト） テスト（テスト） "
