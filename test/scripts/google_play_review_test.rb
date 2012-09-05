@@ -31,7 +31,7 @@ class GooglePlayReviewTest < Test::Unit::TestCase
     f = open(File.dirname(__FILE__) + '/reviews/google_play_new.txt')
     data = f.read
     reviews = @obj.get_reviews(data, 'com.twitter.android')
-    expect = {:star=>"評価: 星 5.0 個（良い）",
+    expect0 = {:star=>"評価: 星 5.0 個（良い）",
       :user=>"テストの名前",
       :date=>"2012/07/30",
       :title=>"4.1.1",
@@ -40,8 +40,18 @@ class GooglePlayReviewTest < Test::Unit::TestCase
       :device=>"HTC Desire HD",
       :app_id=>"com.twitter.android"}
 
-    assert_equal(1, reviews.size)
-    assert_equal(expect, reviews[0])
+    expect1 = {:star=>"評価: 星 1.0 個（あまり良くない）",
+      :user=>"user2",
+      :date=>"2012/09/04",
+      :title=>"使えない",
+      :body=> "使いやすいアプリもあれば、使いずらいアプリもある。",
+      :version=>"1.0.0",
+      :device=> nil,
+      :app_id=>"com.twitter.android"}
+
+    assert_equal(2, reviews.size)
+    assert_equal(expect0, reviews[0])
+    assert_equal(expect1, reviews[1])
   end
 
 

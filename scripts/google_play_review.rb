@@ -90,7 +90,9 @@ class GooglePlayReview < AbstractReview
     if /、バージョン ([0-9\.]+)/ =~ text
       version = $1
     end
-    return get_version_with_parenthese(text) unless version
+
+    version = get_version_with_parenthese(text) unless version
+    version = get_version_without_device(text) unless version
     return version
   end
 
@@ -98,6 +100,14 @@ class GooglePlayReview < AbstractReview
     version = nil
     if /（([^）]+)、バージョン ([^）]+)）/ =~ text
       version = $2
+    end
+    return version
+  end
+
+  def get_version_without_device(text)
+    version = nil
+    if /バージョン ([0-9\.]+)<span/ =~ text
+      version = $1
     end
     return version
   end
