@@ -44,15 +44,20 @@ get '/' do
   end
 
   if @app
+    @versions = Reviews.versions(@app[:app_id]).sort_by{|val| -val[:version].to_f}
     if params[:version] && params[:version]!='ALL'
       @version = params[:version].to_s
       @reviews = Reviews.filter(:app_id => @app[:app_id], :version => params[:version])
+    elsif params[:version] && params[:version]=='ALL'
+      @reviews = Reviews.filter(:app_id => @app[:app_id])
+    elsif @versions != nil && 0 < @versions.length
+      @version = @versions.first[:version]
+      @reviews = Reviews.filter(:app_id => @app[:app_id], :version => @version)
     else
       @reviews = Reviews.filter(:app_id => @app[:app_id])
     end
     @keywords = _get_keywords(@reviews)
     @stars = _get_star_count(@reviews)
-    @versions = Reviews.versions(@app[:app_id]).sort_by{|val| -val[:version].to_f}
   else
     @stars = _get_star_count
   end
