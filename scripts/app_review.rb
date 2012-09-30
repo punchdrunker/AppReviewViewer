@@ -4,7 +4,6 @@ require 'rubygems'
 
 $LOAD_PATH << File.dirname(__FILE__)
 $LOAD_PATH << File.dirname(__FILE__) + '/../config'
-require 'script_config'
 require 'app_store_review'
 require 'google_play_review'
 
@@ -36,8 +35,13 @@ class AppReview
   end
 
   def init_extension
-    if ScriptConfig::USE_NOTIFY
-      require 'model/reviews_extended'
+    begin
+      require 'script_config'
+      if ScriptConfig::USE_NOTIFY
+        require 'model/reviews_extended'
+      end
+    rescue LoadError
+      return nil
     end
   end
 

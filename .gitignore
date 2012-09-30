@@ -1,3 +1,4 @@
 *.db
 logs/*.log
 .bundle
+config/script_config.rb
