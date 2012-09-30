@@ -49,9 +49,10 @@ APP IDはAppStoreとかGooglePlayのURLに含まれているアプリID(twitter�
 
 APP NAMEは何でもいいです。
 
-hubotとかでhttp経由のリクエスト実行したい場合は、config/script_config_sample.rbを参考にconfig/script_config.rbを作成して設定を記述すれば、httpでGETリクエストを送る事も出来ます。
+hubotとかでhttp経由のリクエスト飛ばしてIRCに投稿とかしたい場合は、config/script_config_sample.rbを参考にconfig/script_config.rbを作成して設定を記述すれば、httpでGETリクエストを送る事も出来ます。わかりずらくてすいません。ここらへんは思いつきで実装してるので、その内変わると思います。
 
-httpdでhubotに投稿してもらうサンプル https://github.com/punchdrunker/httpd-ircbot
+httpdでhubotに投稿してもらうサンプルはこちらです
+https://github.com/punchdrunker/httpd-ircbot
 
 アプリを登録したら以下のコマンドでレビューを収集します
 
