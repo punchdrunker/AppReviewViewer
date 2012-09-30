@@ -10,6 +10,8 @@ Sinatraベースです。
 * 保存したレビューの一覧表示
 * ★の数を集計してグラフ表示
 * 頻出キーワードを抽出表示(mecab-rubyインストールしてれば)
+* 頻出キーワードを抽出表示(mecab-rubyインストールしてれば)
+* 新しいレビューをIRCで投稿(要hubot https://github.com/punchdrunker/httpd-ircbot)
 
 依存ライブラリ
 -------
@@ -46,6 +48,10 @@ http://localhost:4567 にアクセスして、左メニューからアプリを�
 APP IDはAppStoreとかGooglePlayのURLに含まれているアプリID(twitterのiOSアプリであれば333903271、GooglePlayだとcom.twitter.android)で、
 
 APP NAMEは何でもいいです。
+
+hubotとかでhttp経由の投稿したい場合は、config/script_config.rbの設定を編集して、httpでGETリクエストを送る事も出来ます。
+
+httpdでhubotに投稿してもらうサンプル https://github.com/punchdrunker/httpd-ircbot
 
 アプリを登録したら以下のコマンドでレビューを収集します
 

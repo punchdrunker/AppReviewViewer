@@ -3,6 +3,8 @@
 require 'rubygems'
 
 $LOAD_PATH << File.dirname(__FILE__)
+$LOAD_PATH << File.dirname(__FILE__) + '/../config'
+require 'script_config'
 require 'app_store_review'
 require 'google_play_review'
 
@@ -10,6 +12,7 @@ class AppReview
 
   def initialize
     super
+    init_extension
   end
 
   def fetch
@@ -30,6 +33,12 @@ class AppReview
 
   def is_app_store_app(id)
     return (/\A\d+\Z/ =~ id.to_s) ? true : false
+  end
+
+  def init_extension
+    if ScriptConfig::USE_NOTIFY
+      require 'model/reviews_extended'
+    end
   end
 
 end
