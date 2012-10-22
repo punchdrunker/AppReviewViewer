@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 require 'cgi'
 
 # TODO need refactor
@@ -5,7 +6,8 @@ class Reviews
   def after_create
     if ScriptConfig::NOTIFY_ROOMS[self.app_id]
       room = ScriptConfig::NOTIFY_ROOMS[self.app_id]
-      message = "[#{self.date}] #{self.title} - #{self.body} (Ver.#{self.version} #{self.device})"
+      message = "[Ver.#{self.version} ★#{self.star.to_s}] #{self.title} - #{self.body} (#{self.date} #{self.device})"
+      message.gsub!('<br />', ' ')
 
       escaped_message = CGI.escape(message)
       begin
