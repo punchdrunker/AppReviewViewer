@@ -77,7 +77,7 @@ class GooglePlayReview < AbstractReview
         http = Net::HTTP.new('play.google.com', 443)
       http.use_ssl = true
       path = "/store/getreviews"
-      data = "id=#{app_id}&reviewSortOrder=2&reviewType=1&pageNum=#{page}"
+      data = "id=#{app_id}&reviewSortOrder=0&reviewType=1&pageNum=#{page}"
         response = http.post(path, data)
       html_string = JSON.parse(response.body.split("\n")[1])['htmlContent']
       reviews = get_reviews(html_string, app_id)
