@@ -24,7 +24,7 @@ helpers do
   end
 
   def add_wbr(s)
-    string_array = s.split('<br />')
+    string_array = s.to_s.split('<br />')
     formatted_string_array = []
     string_array.each do |string|
       formatted_string_array.push string.scan(/.{1,4}/).join("<wbr>")
@@ -90,7 +90,7 @@ def _get_keywords(reviews=[])
   keywords = {}
   reviews.each do |review|
     if review[:nodes]
-      nodes = review[:nodes].split(',')
+      nodes = review[:nodes].to_s.split(',')
       nodes.each do |node|
         if keywords[node]
           keywords[node] += 1
