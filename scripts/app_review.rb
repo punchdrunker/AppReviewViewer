@@ -17,9 +17,7 @@ class AppReview
   def fetch
     Apps.all.each do |app|
       n = (Reviews.filter(:app_id => app[:app_id]).count==0)?10:2
-      #fetch_reviews(app[:app_id].to_s, n)
-
-      fetch_ranking(app[:app_id].to_s, 2)
+      fetch_reviews(app[:app_id].to_s, n)
     end
   end
 
@@ -30,15 +28,6 @@ class AppReview
       task = GooglePlayReview.new
     end
     task.fetch_reviews(app_id, pages)
-  end
-
-  def fetch_ranking(app_id, pages)
-    if is_app_store_app(app_id)
-      #task = AppStoreRanking.new
-    else
-      task = GooglePlayRanking.instance(app_id, pages)
-    end
-    task.fetch_ranking(app_id, pages)
   end
 
   def is_app_store_app(id)

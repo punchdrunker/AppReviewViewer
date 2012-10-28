@@ -108,4 +108,17 @@ class AppStoreReview < AbstractReview
     end
     return version
   end
+
+  def fetch_ranking
+    user_agent = "iTunes/9.2 (Windows; Microsoft Windows 7 "\
+                              + "Home Premium Edition (Build 7600)) AppleWebKit/533.16"
+    url = "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&id=25209&popId=27"
+    html = open(url,
+                 'User-Agent' => user_agent,
+                 'X-Apple-Store-Front' => '143462-1'
+                ).read
+    document = Nokogiri::HTML(html)
+    p document
+
+  end
 end
