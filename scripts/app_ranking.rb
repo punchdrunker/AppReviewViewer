@@ -3,9 +3,8 @@
 require 'rubygems'
 
 $LOAD_PATH << File.dirname(__FILE__)
-$LOAD_PATH << File.dirname(__FILE__) + '/../config'
 require 'app_store_ranking'
-#require 'google_play_review'
+require 'google_play_ranking'
 
 class AppRanking
 
@@ -14,12 +13,12 @@ class AppRanking
   end
 
   def fetch
-    fetch_apple_ranking
+    #fetch_apple_ranking
     fetch_google_ranking
   end
 
   def fetch_apple_ranking
-    opt = {:limit=>200}
+    opt = {:limit=>200,:store_type=>0}
     # Social networking
     # opt[:genre] = '6005'
     
@@ -29,5 +28,8 @@ class AppRanking
   end
 
   def fetch_google_ranking
+    opt = {:store_type => 1}
+    task = GooglePlayRanking.new
+    task.fetch_ranking(opt)
   end
 end

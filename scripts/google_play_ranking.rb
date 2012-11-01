@@ -9,29 +9,33 @@ require 'net/http'
 require 'net/https'
 
 $LOAD_PATH << File.dirname(__FILE__)
+$LOAD_PATH << File.dirname(__FILE__) + '/../config'
 require 'abstract_ranking'
 
 class GooglePlayRanking < AbstractRanking
-  include Singleton
 
-  def initialize(app_id, page)
-    @html_array = []
-    (0..pages).each do |page|
-      http = Net::HTTP.new('play.google.com', 443)
-      http.use_ssl = true
-      path = "/store/getreviews"
-      data = "id=#{app_id}&reviewSortOrder=0&reviewType=1&pageNum=#{page}"
-      response = http.post(path, data)
-      @html_array.push(JSON.parse(response.body.split("\n")[1])['htmlContent'])
-    end
+  def initialize
+    super
   end
 
 
-  def fetch_ranking(app_id)
-    (@html_array).each do |html|
-      ranking = get_ranking(html, app_id)
-      insert_ranking(ranking) if ranking
+  def fetch_ranking(opt={})
+    begin
+      require 'script_config'
+    rescue LoadError
+      return nil
     end
+
+    if opt[:date]==nil || opt[:date].empty?
+      opt[:date] = Time.now.strftime("%Y-%m-%d")
+    end
+
+    url = sprintf(ScriptConfig::GOOGLE_PLAY_RANKING_URL, opt[:date])
+
+    ranking_json = open(url).read
+    rankings = JSON.parse(ranking_json)
+    register_apps(rankings)
+    register_rankings(rankings, opt)
   end
 
   def get_ranking(html, app_id)
