@@ -17,7 +17,6 @@ class AbstractRanking
           :developer  => app["developer"],
           :url        => app["url"],
           :thumbnail  => app["thumbnail"],
-          :store_type => app["store_type"],
           :created_at => Time.now
         )
       end
@@ -39,7 +38,7 @@ class AbstractRanking
       RankingRecords.create(
         :app_id     => app["app_id"],
         :rank       => app["rank"].to_i,
-        :rating     => app["rating"],
+        :rating     => app["rate"],
         :date       => ranking_date,
         :genre      => opt["genre"],
         :store_type => app["store_type"],

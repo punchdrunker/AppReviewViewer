@@ -81,7 +81,7 @@ class AppStoreReview < AbstractReview
   end
 
   def fetch_reviews(app_id, pages)
-    base_url = "http://ax.itunes.apple.com"
+    base_url = "https://itunes.apple.com"
 
     user_agent = "iTunes/9.2 (Windows; Microsoft Windows 7 "\
                               + "Home Premium Edition (Build 7600)) AppleWebKit/533.16"

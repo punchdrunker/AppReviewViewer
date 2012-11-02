@@ -17,10 +17,16 @@ helpers do
     erb page.to_sym, options.merge!(:layout => false), locals
   end
 
-  def formatted_date(date_string)
-    return '' if date_string.to_s == ''
+  def formatted_date(date_string, delimiter='/')
+    date_string = date_string.to_s
+    return '' if date_string == ''
     date = Time.parse(date_string)
-    date.strftime("%Y/%m/%d")
+    date.strftime("%Y#{delimiter}%m#{delimiter}%d")
+  end
+
+  def formatted_rate(str)
+    return $1 if /([\d\.]+)/ =~ str
+    return ''
   end
 
   def add_wbr(s)
@@ -76,6 +82,47 @@ post '/app/create' do
     halt 403, "bad parameters"
   end
 end
+
+get '/ranking' do
+  params[:store_type] = 0 unless params[:store_type]
+  @store_type = params[:store_type]
+  unless params[:date]
+    now = Time.now
+    params[:date] = now.year.to_s + '-' + now.month.to_s + '-' + now.day.to_s
+  end
+  @date = params[:date]
+
+  @records = RankingRecords.filter(:store_type => params[:store_type],
+                                   :date => Time.parse(params[:date]))\
+                                   .join_table(:left, :ranking_apps___app, [:app_id]).order(:rank)
+
+  @genres = {}
+  total_count = 0
+  @records.each do | record |
+    next unless record[:genre]
+    if @genres[record[:genre]]
+      @genres[record[:genre]][:count] += 1
+    else
+      @genres[record[:genre]] = {}
+      @genres[record[:genre]][:count] = 1
+    end
+    total_count += 1
+  end
+
+  @genres.each do |k, v|
+    v[:share] = (v[:count].to_f / total_count.to_f) * 100.0
+  end
+
+  @date_list = RankingRecords.dates
+  @apps = Apps.all
+
+  erb :ranking
+end
+
+
+#
+# private methods
+#
 
 def _get_star_count(reviews=[])
   stars = [0,0,0,0,0]

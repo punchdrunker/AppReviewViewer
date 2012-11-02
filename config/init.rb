@@ -27,4 +27,5 @@ end
 $LOAD_PATH << File.dirname(__FILE__) + '/../lib'
 require 'model/apps'
 require 'model/reviews'
-
+require 'model/ranking_records'
+require 'model/ranking_apps'

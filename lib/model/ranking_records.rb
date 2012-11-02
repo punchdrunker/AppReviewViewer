@@ -1,6 +1,7 @@
 class RankingRecords < Sequel::Model
   plugin :schema
   plugin :validation_helpers
+
   unless table_exists?
     set_schema do
       primary_key :id
@@ -20,5 +21,9 @@ class RankingRecords < Sequel::Model
   def validate
     super
     validates_presence [:rank, :app_id]
+  end
+
+  def self.dates
+    self.db.fetch("SELECT DISTINCT date FROM ranking_records ORDER BY date")
   end
 end

@@ -1,0 +1,84 @@
+        <script type="text/javascript" src="/js/jquery.form.js"></script>
+        <script type="text/javascript" src="/js/star_graph.js"></script>
+        <script type="text/javascript">
+        <!--
+        $(function() {
+            $("table#records").tablesorter();
+
+            var form_option = {
+              success: function() {
+                  $('#add_app_form').toggle();
+                  document.location.reload(true);
+              },
+              error: function() {
+                  alert('error');
+              }
+            }; 
+            $('#add_app').ajaxForm(form_option);
+            $('#toggle_app_form').click(function(){
+                $('#add_app_form').toggle();
+            });
+
+        });
+        -->
+        </script>
+        <% if @store_type=='0' %>
+        <title>App Reviews - App Store Ranking</title>
+        <% else %>
+        <title>App Reviews - Google play Ranking</title>
+        <% end %>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top"> 
+            <div class="navbar-inner"> 
+                    <a href="/" class="brand">App Reviews</a>
+                    <div class="nav-collapse"></div>
+            </div> 
+        </div> 
+
+
+        <div class="container-fluid span12">
+
+            <!-- menu -->
+            <div class="span3">
+                &nbsp;
+                <div class="float-menu">
+              <%= partial(:_side_menu, :selected_app => @app, :apps => @apps) %>
+              <% if @app %>
+                  <%= partial(:_query_panel, :version => @version, :versions => @versions, :app_id => @app[:app_id]) %>
+              <% end %>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="span8">
+                <div class="container">
+                    <% if @records && 0< @records.count%>
+                      <div class="row">
+                        <% if @store_type=='0' %>
+                          <h1>App Store Ranking ( <%= @date %> )</h1>
+                        <% else  %>
+                          <h1>Google play Ranking ( <%= @date %> )</h1>
+                        <% end %>
+                      </div>
+
+                      <div class="btn-toolbar">
+                      <div class="btn-group">
+                        <button class="btn btn-small">日付を選択</button>
+                        <button class="btn btn-small dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <% @date_list.each do |record| %>
+                            <li><a href="?store_type=<%= @store_type %>&date=<%= formatted_date(record[:date], '-') %>"><%= formatted_date(record[:date], '-') %></a></li>
+                          <% end %>
+                        </ul>
+                      </div>
+                      </div>
+
+
+                      <%= partial(:_ranking_table, :records => @records) %>
+                    <% else %>
+                      ランキングが登録されていません
+                    <% end %>
+                </div> 
+        </div> 
+    </body>

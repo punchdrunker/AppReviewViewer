@@ -1,7 +1,16 @@
 <div class="side-content row">
+  <div class="row">
+    <h3>ランキング</h3>
+    <ul class="nav nav-pills nav-stacked span2">
+      <li><a href="/ranking?store_type=0">App Store</a></li>
+      <li><a href="/ranking?store_type=1">Google play</a></li>
+    </ul>
+  </div>
+
   <% unless apps %>
   <% else %>
-    <div class="row">
+
+  <div class="row">
   <h3>アプリ一覧</h3>
     <ul class="nav nav-pills nav-stacked span2">
       <% if apps %>

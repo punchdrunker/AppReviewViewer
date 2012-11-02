@@ -1,0 +1,31 @@
+<div id="ranking_table" class="row">
+
+  <% if records %>
+    <table class="table table-bordered table-striped" id="records">
+      <thead>
+        <tr>
+          <th>順位</th>
+          <th>タイトル</th>
+          <th>開発者</th>
+          <th>app_id</th>
+          <th>ジャンル</th>
+          <th>評価</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% records.each do |record| %>
+          <tr>
+            <td><%= record[:rank] %></td>
+            <td><img width="25" src="<%= record[:thumbnail] %>" />
+              <a href="<%= record[:url] %>" target="_blank"><%= record[:name] %></a></td>
+            <td><%= record[:developer] %></td>
+            <td><%= record[:app_id] %></td>
+            <td><%= record[:genre] %></td>
+            <td><%= formatted_rate(record[:rating]) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% end %>
+</div>
