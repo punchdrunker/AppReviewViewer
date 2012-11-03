@@ -1,12 +1,8 @@
 # -*- encoding: utf-8 -*-
 
-require 'singleton'
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
-require 'json'
-require 'net/http'
-require 'net/https'
 
 $LOAD_PATH << File.dirname(__FILE__)
 $LOAD_PATH << File.dirname(__FILE__) + '/../config'
@@ -14,82 +10,51 @@ require 'abstract_ranking'
 
 class GooglePlayRanking < AbstractRanking
 
-  def initialize
-    super
-  end
-
+  STORE_TYPE = 1
 
   def fetch_ranking(opt={})
-    begin
-      require 'script_config'
-    rescue LoadError
-      return nil
+    if opt[:page]==nil || opt[:page]==0
+      url = "https://play.google.com/store/apps/collection/topselling_free"
+    else 
+      start = 24 * opt[:page].to_i
+      url = "https://play.google.com/store/apps/collection/topselling_free?start=#{start}&num=24"
     end
+    opt[:base_url] = "https://play.google.com"
 
-    if opt[:date]==nil || opt[:date].empty?
-      opt[:date] = Time.now.strftime("%Y-%m-%d")
-    end
-
-    url = sprintf(ScriptConfig::GOOGLE_PLAY_RANKING_URL, opt[:date])
-
-    ranking_json = open(url).read
-    rankings = JSON.parse(ranking_json)
+    html = open(url).read
+    rankings = get_ranking(html, opt)
     register_apps(rankings)
     register_rankings(rankings, opt)
   end
 
-  def get_ranking(html, app_id)
-    dates = []
-    titles = []
-    bodies = []
-    stars = []
-    users = []
-    versions = []
-    devices = []
-    i = 0
-
+  def get_ranking(html, opt)
+    records = [];
     doc = Nokogiri.HTML(html)
-    doc.xpath("//h4[@class='review-title']").each do |node|
-      titles.push(node.text)
+    doc.xpath('//li[@class="goog-inline-block"]').each do |node|
+      app = parse_ranking_app(node, opt)
+      records.push app
     end
 
-    doc.xpath("//p[@class='review-text']").each do |node|
-      bodies.push(node.text)
+    doc.xpath('//li[@class="goog-inline-block z-last-child"]').each do |node|
+      app = parse_ranking_app(node, opt)
+      records.push app
     end
 
-    doc.xpath("//span[@class='doc-review-date']").each do |node|
-      dates.push(node.text.sub(' - ', ''))
-    end
+    return records
+  end
 
-    doc.xpath("//div[@class='ratings goog-inline-block']").each do |node|
-      stars.push(node.attributes['title'].value)
-    end
-
-    doc.xpath("//strong").each do |node|
-      users.push(node.text)
-    end
-
-    doc.xpath("//div[@class='doc-review']").each do |node|
-      versions.push(get_version(node.inner_html))
-      devices.push(get_device(node.inner_html))
-    end
-
-    items = [];
-    count = stars.size - 1
-    (0..count).each do |key|
-      item = {
-        :star => stars[key],
-        :user => users[key],
-        :date => dates[key],
-        :title => titles[key],
-        :body => bodies[key],
-        :version => versions[key],
-        :device => devices[key],
-        :app_id => app_id
-      }
-      items.push(item)
-    end
-    return items
+  def parse_ranking_app(node, opt)
+      app = {}
+      app["store_type"] = STORE_TYPE
+      app["rank"]       = node.xpath(".//div[@class='ordinal-value']")[0].text
+      app["app_id"]     = node["data-docid"]
+      app["url"]        = opt[:base_url] + node.xpath(".//a")[0]["href"]
+      app["thumbnail"]  = node.xpath(".//img")[0]["src"]
+      app["developer"]  = node.xpath(".//a")[2].content
+      app["name"]       = node.xpath(".//a")[1]["title"]
+      app["developer"]  = node.xpath(".//a")[2].content
+      app["rating"]     = node.xpath(".//div[@class='ratings goog-inline-block']")[0]["title"]
+      return app
   end
 
 end

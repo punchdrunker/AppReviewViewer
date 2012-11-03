@@ -8,6 +8,9 @@ $LOAD_PATH << File.dirname(__FILE__)
 require 'abstract_ranking'
 
 class AppStoreRanking < AbstractRanking
+
+  STORE_TYPE = 0
+
   def fetch_ranking(opt)
     if opt[:limit]==nil
       opt[:limit] = 100
@@ -36,14 +39,14 @@ class AppStoreRanking < AbstractRanking
     rank = 1
     document.xpath('.//atom:entry', ns).each do |elm|
       app = {}
-      app["app_id"] = elm.xpath('.//atom:id',ns)[0]["id"]
-      app["name"] = elm.xpath('.//im:name',ns)[0].content
-      app["genre"] = elm.xpath('.//atom:category',ns)[0]["label"]
-      app["developer"] = elm.xpath('.//im:artist',ns)[0].content
-      app["url"] = elm.xpath('.//atom:link',ns)[0]["href"]
-      app["thumbnail"] = elm.xpath('.//im:image[@height="100"]',ns)[0].content
-      app["rank"] = rank
-      app["store_type"] = 0
+      app["store_type"] = STORE_TYPE
+      app["app_id"]     = elm.xpath('.//atom:id',ns)[0]["id"]
+      app["name"]       = elm.xpath('.//im:name',ns)[0].content
+      app["genre"]      = elm.xpath('.//atom:category',ns)[0]["label"]
+      app["developer"]  = elm.xpath('.//im:artist',ns)[0].content
+      app["url"]        = elm.xpath('.//atom:link',ns)[0]["href"]
+      app["thumbnail"]  = elm.xpath('.//im:image[@height="100"]',ns)[0].content
+      app["rank"]       = rank
       apps.push app
 
       rank += 1

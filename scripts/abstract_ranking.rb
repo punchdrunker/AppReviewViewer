@@ -31,14 +31,15 @@ class AbstractRanking
       ranking_date = Time.parse(opt[:date])
     end
 
-    return unless RankingRecords.filter(:date => ranking_date, :store_type => opt[:store_type]).count == 0
+    return unless RankingRecords.filter(:date => ranking_date,
+                                        :store_type => opt[:store_type]).count == 0
 
     apps.each do |app|
       next unless app["app_id"]
       RankingRecords.create(
         :app_id     => app["app_id"],
         :rank       => app["rank"].to_i,
-        :rating     => app["rate"],
+        :rating     => app["rating"],
         :date       => ranking_date,
         :genre      => opt["genre"],
         :store_type => app["store_type"],
