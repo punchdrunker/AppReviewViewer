@@ -119,6 +119,36 @@ get '/ranking' do
   erb :ranking
 end
 
+get '/graph' do
+  if params[:app_id]
+    @app = RankingApps.filter(:app_id => params[:app_id]).first
+  else
+    return 'not found'
+  end
+
+  @records = RankingRecords.filter(:app_id => params[:app_id])\
+    .join_table(:left, :ranking_apps___app, [:app_id]).order(:rank)
+
+  @apps = Apps.all
+  erb :graph
+end
+
+get '/tsv' do
+  if params[:app_id]
+    @app = RankingApps.filter(:app_id => params[:app_id]).first
+  else
+    return ''
+  end
+
+  @records = RankingRecords.filter(:app_id => params[:app_id])\
+    .join_table(:left, :ranking_apps___app, [:app_id]).order(:rank)
+  tsv = ''
+  @records.each do |r|
+    tsv += r[:date].strftime("%Y-%m-%d") + "\t" + r[:rank].to_s + "\n"
+  end
+
+  return tsv
+end
 
 #
 # private methods

@@ -13,6 +13,17 @@ class GooglePlayRanking < AbstractRanking
   STORE_TYPE = 1
 
   def fetch_ranking(opt={})
+    rankings = croll(opt)
+    (1..7).each do |page|
+      opt[:page] = page
+      rankings.concat croll(opt)
+    end
+
+    register_apps(rankings)
+    register_rankings(rankings, opt)
+  end
+
+  def croll(opt={})
     if opt[:page]==nil || opt[:page]==0
       url = "https://play.google.com/store/apps/collection/topselling_free"
     else 
@@ -23,8 +34,7 @@ class GooglePlayRanking < AbstractRanking
 
     html = open(url).read
     rankings = get_ranking(html, opt)
-    register_apps(rankings)
-    register_rankings(rankings, opt)
+    return rankings
   end
 
   def get_ranking(html, opt)

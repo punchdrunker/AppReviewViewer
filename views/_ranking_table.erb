@@ -10,6 +10,7 @@
           <th>app_id</th>
           <th>ジャンル</th>
           <th>評価</th>
+          <th>統計</th>
         </tr>
       </thead>
 
@@ -23,6 +24,7 @@
             <td><%= record[:app_id] %></td>
             <td><%= record[:genre] %></td>
             <td><%= formatted_rate(record[:rating]) %></td>
+            <td><a href="/graph?app_id=<%= record[:app_id] %>"><i class="icon-signal"></i></a></td>
           </tr>
         <% end %>
       </tbody>
