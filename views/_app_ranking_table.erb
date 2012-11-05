@@ -1,0 +1,24 @@
+<div id="ranking_table" class="row">
+
+  <% if records %>
+    <table class="table table-bordered table-striped" id="records">
+      <thead>
+        <tr>
+          <th>日付</th>
+          <th>順位</th>
+          <th>評価</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% records.each do |record| %>
+          <tr>
+            <td><%= formatted_date(record[:date]) %></td>
+            <td><%= record[:rank] %></td>
+            <td><%= formatted_rate(record[:rating]) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% end %>
+</div>
