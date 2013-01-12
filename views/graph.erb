@@ -1,13 +1,14 @@
+        <link href="/css/graph.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="/js/jquery.form.js"></script>
         <script type="text/javascript" src="/js/d3.v2.min.js"></script>
         <script type="text/javascript">
         <!--
         $(function() {
-            var margin = {top: 200, right: 20, bottom: 30, left: 50},
+            var margin = {top: 20, right: 50, bottom: 50, left: 50},
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
-            var parseDate = d3.time.format("%d-%b-%y").parse;
+            var parseDate = d3.time.format("%Y-%m-%d").parse;
 
             var x = d3.time.scale()
             .range([0, width]);
@@ -25,32 +26,26 @@
 
             var line = d3.svg.line()
               .x(function(d) { return x(d.date); })
-              .y(function(d) { return y(d.close); });
+              .y(function(d) { return y(d.rank); });
 
-            var svg = $('#graph')
+            var svg = d3.select('#graph')
               .attr("width", width + margin.left + margin.right)
               .attr("height", height + margin.top + margin.bottom)
               .append("g")
               .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-/*
-            var svg = d3.select("body").append("svg")
-              .attr("width", width + margin.left + margin.right)
-              .attr("height", height + margin.top + margin.bottom)
-              .append("g")
-              .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-              */
 
             data = [
-            {"date":"2012-10-30", "close":200},
-            {"date":"2012-10-31", "close":300}
+                <% @records.each do |r| %>
+                    {"date":"<%= formatted_date(r[:date], '-') %>", "rank": <%= r[:rank] %> },
+                <% end %>
             ];
             data.forEach(function(d) {
                 d.date = parseDate(d.date);
-                d.close = +d.close;
+                d.rank = +d.rank;
                 });
 
             x.domain(d3.extent(data, function(d) { return d.date; }));
-            y.domain(d3.extent(data, function(d) { return d.close; }));
+            y.domain(d3.extent(data, function(d) { return d.rank; }));
 
             svg.append("g")
               .attr("class", "x axis")
@@ -65,12 +60,14 @@
               .attr("y", 6)
               .attr("dy", ".71em")
               .style("text-anchor", "end")
-              .text("Price ($)");
+              .text("順位");
 
             svg.append("path")
               .datum(data)
               .attr("class", "line")
               .attr("d", line);
+
+
 
             $("table#reviews").tablesorter({ sortList: [[3,1]] });
 
@@ -124,7 +121,7 @@
 
                       <svg id="graph">
 
-                      <%= partial(:_ranking_table, :records => @records) %>
+                      <%= partial(:_app_ranking_table, :records => @records) %>
                     <% else %>
                       ランキングが登録されていません
                     <% end %>
