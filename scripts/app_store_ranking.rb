@@ -40,7 +40,7 @@ class AppStoreRanking < AbstractRanking
     document.xpath('.//atom:entry', ns).each do |elm|
       app = {}
       app["store_type"] = STORE_TYPE
-      app["app_id"]     = elm.xpath('.//atom:id',ns)[0]["id"].to_s
+      app["app_id"]     = elm.xpath('.//atom:id',ns)[0]["im:id"].to_s
       app["name"]       = elm.xpath('.//im:name',ns)[0].content
       app["genre"]      = elm.xpath('.//atom:category',ns)[0]["label"]
       app["developer"]  = elm.xpath('.//im:artist',ns)[0].content
