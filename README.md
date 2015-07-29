@@ -1,3 +1,6 @@
+**This system is no longer maintained.**  
+**Use https://github.com/punchdrunker/koala instead.**
+
 AppReviewViewer
 =============
 
